@@ -1,0 +1,353 @@
+TDealFork
+v7
+r1
+cCheck dependencies
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004CC11B5300000000000D96F0
+t1287723859
+s890608
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004CC11B4300000000000001D0
+t1287723843
+s464
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/Availability.h
+c000000004CB3FBB80000000000001ADD
+t1286863800
+s6877
+
+N/Users/syalam/Documents/DealFork/Classes/../RootViewController.xib
+c000000004D6179F30000000000004A00
+t1298233843
+s18944
+
+N/Users/syalam/Documents/DealFork/Classes/BrowserViewController.h
+c000000004D618FAD00000000000000E2
+t1298239405
+s226
+i<UIKit/UIKit.h>
+
+N/Users/syalam/Documents/DealFork/Classes/BrowserViewController.m
+c000000004D6191D700000000000005BF
+t1298239959
+s1471
+i"BrowserViewController.h"
+
+N/Users/syalam/Documents/DealFork/Classes/BrowserViewController.xib
+c000000004D618FD0000000000000408B
+t1298239440
+s16523
+
+N/Users/syalam/Documents/DealFork/Classes/DealForkAppDelegate.h
+c000000004D617B5D00000000000001CC
+t1298234205
+s460
+i<UIKit/UIKit.h>
+
+N/Users/syalam/Documents/DealFork/Classes/DealForkAppDelegate.m
+c000000004D61EB9E0000000000000AFF
+t1298262942
+s2815
+i"DealForkAppDelegate.h"
+i"RootViewController.h"
+
+N/Users/syalam/Documents/DealFork/Classes/DealViewController.h
+c000000004D61907E0000000000000162
+t1298239614
+s354
+i<UIKit/UIKit.h>
+
+N/Users/syalam/Documents/DealFork/Classes/DealViewController.m
+c000000004D6191FB0000000000000728
+t1298239995
+s1832
+i"DealViewController.h"
+i"BrowserViewController.h"
+
+N/Users/syalam/Documents/DealFork/Classes/DealViewController.xib
+c000000004D61908A00000000000051A8
+t1298239626
+s20904
+
+N/Users/syalam/Documents/DealFork/Classes/LocationGetter.h
+c000000004C813E3E0000000000000241
+t1283538494
+s577
+i<UIKit/UIKit.h>
+i<CoreLocation/CoreLocation.h>
+
+N/Users/syalam/Documents/DealFork/Classes/LocationGetter.m
+c000000004C816F4D000000000000061B
+t1283551053
+s1563
+i"LocationGetter.h"
+i<CoreLocation/CoreLocation.h>
+
+N/Users/syalam/Documents/DealFork/Classes/RootViewController.h
+c000000004D617B6000000000000001C6
+t1298234208
+s454
+i<UIKit/UIKit.h>
+i"LocationGetter.h"
+
+N/Users/syalam/Documents/DealFork/Classes/RootViewController.m
+c000000004D61EA6A0000000000000B0F
+t1298262634
+s2831
+i"RootViewController.h"
+i"DealViewController.h"
+
+N/Users/syalam/Documents/DealFork/DealFork_Prefix.pch
+c000000004D6175950000000000000142
+t1298232725
+s322
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/syalam/Documents/DealFork/MainWindow.xib
+c000000004D6175950000000000005FF8
+t1298232725
+s24568
+
+N/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphoneos/DealFork.build/Objects-normal/armv6/BrowserViewController-5683A7953B187E46.o
+t2
+s0
+
+N/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphoneos/DealFork.build/Objects-normal/armv6/DealFork
+t2
+s0
+
+N/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphoneos/DealFork.build/Objects-normal/armv6/DealFork.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphoneos/DealFork.build/Objects-normal/armv6/DealForkAppDelegate.o
+t2
+s0
+
+N/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphoneos/DealFork.build/Objects-normal/armv6/DealViewController-9863AD8245DC1B7A.o
+t2
+s0
+
+N/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphoneos/DealFork.build/Objects-normal/armv6/LocationGetter-3B357839612E8A8A.o
+t2
+s0
+
+N/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphoneos/DealFork.build/Objects-normal/armv6/RootViewController.o
+t2
+s0
+
+N/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphoneos/DealFork.build/Objects-normal/armv6/main.o
+t2
+s0
+
+N/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphoneos/DealFork.build/Objects-normal/armv7/BrowserViewController-5683A7953B187E46.o
+t2
+s0
+
+N/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphoneos/DealFork.build/Objects-normal/armv7/DealFork
+t2
+s0
+
+N/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphoneos/DealFork.build/Objects-normal/armv7/DealFork.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphoneos/DealFork.build/Objects-normal/armv7/DealForkAppDelegate.o
+t2
+s0
+
+N/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphoneos/DealFork.build/Objects-normal/armv7/DealViewController-9863AD8245DC1B7A.o
+t2
+s0
+
+N/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphoneos/DealFork.build/Objects-normal/armv7/LocationGetter-3B357839612E8A8A.o
+t2
+s0
+
+N/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphoneos/DealFork.build/Objects-normal/armv7/RootViewController.o
+t2
+s0
+
+N/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphoneos/DealFork.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/syalam/Documents/DealFork/build/Debug-iphoneos/DealFork.app
+t2
+s0
+
+N/Users/syalam/Documents/DealFork/build/Debug-iphoneos/DealFork.app.dSYM
+t2
+s0
+
+N/Users/syalam/Documents/DealFork/build/Debug-iphoneos/DealFork.app/BrowserViewController.nib
+t2
+s0
+
+N/Users/syalam/Documents/DealFork/build/Debug-iphoneos/DealFork.app/DealFork
+t2
+s0
+
+N/Users/syalam/Documents/DealFork/build/Debug-iphoneos/DealFork.app/DealViewController.nib
+t2
+s0
+
+N/Users/syalam/Documents/DealFork/build/Debug-iphoneos/DealFork.app/Info.plist
+t2
+s0
+
+N/Users/syalam/Documents/DealFork/build/Debug-iphoneos/DealFork.app/MainWindow.nib
+t2
+s0
+
+N/Users/syalam/Documents/DealFork/build/Debug-iphoneos/DealFork.app/PkgInfo
+t2
+s0
+
+N/Users/syalam/Documents/DealFork/build/Debug-iphoneos/DealFork.app/ResourceRules.plist
+t2
+s0
+
+N/Users/syalam/Documents/DealFork/build/Debug-iphoneos/DealFork.app/RootViewController.nib
+t2
+s0
+
+N/Users/syalam/Documents/DealFork/main.m
+c000000004D617595000000000000015D
+t1298232725
+s349
+i<UIKit/UIKit.h>
+
+N/var/folders/Pw/PwORMoPxHr0eQe8s2hnvSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DealFork_Prefix-bekqyhczzmlpwxgjvoimbduqyofx/DealFork_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/Pw/PwORMoPxHr0eQe8s2hnvSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DealFork_Prefix-bxkqlmmidpqxiaeulolgyirtexwj/DealFork_Prefix.pch.gch
+t2
+s0
+
+NDealFork-Info.plist
+c000000004D617595000000000000038D
+t1298232725
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies319955747#319955747#0(900"[WARN]warning: no rule to process file '$(PROJECT_DIR)/Classes/LocationGetter.h' of type sourcecode.objj.h for architecture armv6[WARN]warning: no rule to process file '$(PROJECT_DIR)/Classes/DealViewController.h' of type sourcecode.objj.h for architecture armv6[WARN]warning: no rule to process file '$(PROJECT_DIR)/Classes/BrowserViewController.h' of type sourcecode.objj.h for architecture armv6[WARN]warning: no rule to process file '$(PROJECT_DIR)/Classes/LocationGetter.h' of type sourcecode.objj.h for architecture armv7[WARN]warning: no rule to process file '$(PROJECT_DIR)/Classes/DealViewController.h' of type sourcecode.objj.h for architecture armv7[WARN]warning: no rule to process file '$(PROJECT_DIR)/Classes/BrowserViewController.h' of type sourcecode.objj.h for architecture armv7[BEROR]Code Sign error: The identity 'iPhone Developer' doesn't match any identity in any profile7(22@123"warning: no rule to process file '$(PROJECT_DIR)/Classes/LocationGetter.h' of type sourcecode.objj.h for architecture armv6319955747#18446744073709551615#0#0(1@0"0(22@127"warning: no rule to process file '$(PROJECT_DIR)/Classes/DealViewController.h' of type sourcecode.objj.h for architecture armv6319955747#18446744073709551615#0#0(1@0"0(22@130"warning: no rule to process file '$(PROJECT_DIR)/Classes/BrowserViewController.h' of type sourcecode.objj.h for architecture armv6319955747#18446744073709551615#0#0(1@0"0(22@123"warning: no rule to process file '$(PROJECT_DIR)/Classes/LocationGetter.h' of type sourcecode.objj.h for architecture armv7319955747#18446744073709551615#0#0(1@0"0(22@127"warning: no rule to process file '$(PROJECT_DIR)/Classes/DealViewController.h' of type sourcecode.objj.h for architecture armv7319955747#18446744073709551615#0#0(1@0"0(22@130"warning: no rule to process file '$(PROJECT_DIR)/Classes/BrowserViewController.h' of type sourcecode.objj.h for architecture armv7319955747#18446744073709551615#0#0(1@0"0(4@90"Code Sign error: The identity 'iPhone Developer' doesn't match any identity in any profile319955747#18446744073709551615#0#0(1@0"0(0#1#0"3343187568374212096#0"0#
+
+CCompileC build/DealFork.build/Debug-iphoneos/DealFork.build/Objects-normal/armv6/BrowserViewController-5683A7953B187E46.o /Users/syalam/Documents/DealFork/Classes/BrowserViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DealFork.build/Debug-iphoneos/DealFork.build/Objects-normal/armv6/DealForkAppDelegate.o /Users/syalam/Documents/DealFork/Classes/DealForkAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DealFork.build/Debug-iphoneos/DealFork.build/Objects-normal/armv6/DealViewController-9863AD8245DC1B7A.o /Users/syalam/Documents/DealFork/Classes/DealViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DealFork.build/Debug-iphoneos/DealFork.build/Objects-normal/armv6/LocationGetter-3B357839612E8A8A.o /Users/syalam/Documents/DealFork/Classes/LocationGetter.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DealFork.build/Debug-iphoneos/DealFork.build/Objects-normal/armv6/RootViewController.o /Users/syalam/Documents/DealFork/Classes/RootViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DealFork.build/Debug-iphoneos/DealFork.build/Objects-normal/armv6/main.o /Users/syalam/Documents/DealFork/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DealFork.build/Debug-iphoneos/DealFork.build/Objects-normal/armv7/BrowserViewController-5683A7953B187E46.o /Users/syalam/Documents/DealFork/Classes/BrowserViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DealFork.build/Debug-iphoneos/DealFork.build/Objects-normal/armv7/DealForkAppDelegate.o /Users/syalam/Documents/DealFork/Classes/DealForkAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DealFork.build/Debug-iphoneos/DealFork.build/Objects-normal/armv7/DealViewController-9863AD8245DC1B7A.o /Users/syalam/Documents/DealFork/Classes/DealViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DealFork.build/Debug-iphoneos/DealFork.build/Objects-normal/armv7/LocationGetter-3B357839612E8A8A.o /Users/syalam/Documents/DealFork/Classes/LocationGetter.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DealFork.build/Debug-iphoneos/DealFork.build/Objects-normal/armv7/RootViewController.o /Users/syalam/Documents/DealFork/Classes/RootViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DealFork.build/Debug-iphoneos/DealFork.build/Objects-normal/armv7/main.o /Users/syalam/Documents/DealFork/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB /Users/syalam/Documents/DealFork/Classes/../RootViewController.xib
+r0
+
+CCompileXIB /Users/syalam/Documents/DealFork/Classes/BrowserViewController.xib
+r0
+
+CCompileXIB /Users/syalam/Documents/DealFork/Classes/DealViewController.xib
+r0
+
+CCompileXIB /Users/syalam/Documents/DealFork/MainWindow.xib
+r0
+
+CCpResource build/Debug-iphoneos/DealFork.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+r0
+
+CCreateUniversalBinary /Users/syalam/Documents/DealFork/build/Debug-iphoneos/DealFork.app/DealFork normal "armv6 armv7"
+r0
+
+CGenerateDSYMFile /Users/syalam/Documents/DealFork/build/Debug-iphoneos/DealFork.app.dSYM /Users/syalam/Documents/DealFork/build/Debug-iphoneos/DealFork.app/DealFork
+r0
+
+CLd /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphoneos/DealFork.build/Objects-normal/armv6/DealFork normal armv6
+r0
+
+CLd /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphoneos/DealFork.build/Objects-normal/armv7/DealFork normal armv7
+r0
+
+CProcessInfoPlistFile /Users/syalam/Documents/DealFork/build/Debug-iphoneos/DealFork.app/Info.plist DealFork-Info.plist
+r0
+
+CProcessPCH /var/folders/Pw/PwORMoPxHr0eQe8s2hnvSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DealFork_Prefix-bekqyhczzmlpwxgjvoimbduqyofx/DealFork_Prefix.pch.gch DealFork_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/Pw/PwORMoPxHr0eQe8s2hnvSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DealFork_Prefix-bxkqlmmidpqxiaeulolgyirtexwj/DealFork_Prefix.pch.gch DealFork_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch /Users/syalam/Documents/DealFork/build/Debug-iphoneos/DealFork.app
+r0
+

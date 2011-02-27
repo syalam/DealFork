@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* DealForkAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* DealForkAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
+		28F335F11007B36200424DE2 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F335F01007B36200424DE2 /* RootViewController.xib */; };
+		8C43C88A1311C72D005A0867 /* BrowserViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 8C43C8871311C72D005A0867 /* BrowserViewController.h */; };
+		8C43C88B1311C72D005A0867 /* BrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C43C8881311C72D005A0867 /* BrowserViewController.m */; };
+		8C43C88C1311C72D005A0867 /* BrowserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C43C8891311C72D005A0867 /* BrowserViewController.xib */; };
+		8C50B67F1311AE8500D3EEAC /* LocationGetter.h in Sources */ = {isa = PBXBuildFile; fileRef = 8C50B67D1311AE8500D3EEAC /* LocationGetter.h */; };
+		8C50B6801311AE8500D3EEAC /* LocationGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C50B67E1311AE8500D3EEAC /* LocationGetter.m */; };
+		8C50B6861311AEA000D3EEAC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C50B6851311AEA000D3EEAC /* CoreLocation.framework */; };
+		8C50B6AC1311B06500D3EEAC /* DealViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 8C50B6A91311B06500D3EEAC /* DealViewController.h */; };
+		8C50B6AD1311B06500D3EEAC /* DealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C50B6AA1311B06500D3EEAC /* DealViewController.m */; };
+		8C50B6AE1311B06500D3EEAC /* DealViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C50B6AB1311B06500D3EEAC /* DealViewController.xib */; };
+		8CC44DF6131993A40013AADE /* TCImageView.h in Sources */ = {isa = PBXBuildFile; fileRef = 8CC44DF4131993A40013AADE /* TCImageView.h */; };
+		8CC44DF7131993A40013AADE /* TCImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC44DF5131993A40013AADE /* TCImageView.m */; };
+		8CFC15A51316F77D0052AD61 /* JSON.h in Sources */ = {isa = PBXBuildFile; fileRef = 8CFC15981316F77D0052AD61 /* JSON.h */; };
+		8CFC15A61316F77D0052AD61 /* NSObject+SBJSON.h in Sources */ = {isa = PBXBuildFile; fileRef = 8CFC15991316F77D0052AD61 /* NSObject+SBJSON.h */; };
+		8CFC15A71316F77D0052AD61 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CFC159A1316F77D0052AD61 /* NSObject+SBJSON.m */; };
+		8CFC15A81316F77D0052AD61 /* NSString+SBJSON.h in Sources */ = {isa = PBXBuildFile; fileRef = 8CFC159B1316F77D0052AD61 /* NSString+SBJSON.h */; };
+		8CFC15A91316F77D0052AD61 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CFC159C1316F77D0052AD61 /* NSString+SBJSON.m */; };
+		8CFC15AA1316F77D0052AD61 /* SBJSON.h in Sources */ = {isa = PBXBuildFile; fileRef = 8CFC159D1316F77D0052AD61 /* SBJSON.h */; };
+		8CFC15AB1316F77D0052AD61 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CFC159E1316F77D0052AD61 /* SBJSON.m */; };
+		8CFC15AC1316F77D0052AD61 /* SBJsonBase.h in Sources */ = {isa = PBXBuildFile; fileRef = 8CFC159F1316F77D0052AD61 /* SBJsonBase.h */; };
+		8CFC15AD1316F77D0052AD61 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CFC15A01316F77D0052AD61 /* SBJsonBase.m */; };
+		8CFC15AE1316F77D0052AD61 /* SBJsonParser.h in Sources */ = {isa = PBXBuildFile; fileRef = 8CFC15A11316F77D0052AD61 /* SBJsonParser.h */; };
+		8CFC15AF1316F77D0052AD61 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CFC15A21316F77D0052AD61 /* SBJsonParser.m */; };
+		8CFC15B01316F77D0052AD61 /* SBJsonWriter.h in Sources */ = {isa = PBXBuildFile; fileRef = 8CFC15A31316F77D0052AD61 /* SBJsonWriter.h */; };
+		8CFC15B11316F77D0052AD61 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CFC15A41316F77D0052AD61 /* SBJsonWriter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* DealForkAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DealForkAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* DealForkAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DealForkAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* DealFork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DealFork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AAE50D9B0CCF005BE974 /* DealFork_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DealFork_Prefix.pch; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		28F335F01007B36200424DE2 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = RootViewController.xib; path = ../RootViewController.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8C43C8871311C72D005A0867 /* BrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; name = BrowserViewController.h; path = Classes/BrowserViewController.h; sourceTree = "<group>"; };
+		8C43C8881311C72D005A0867 /* BrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BrowserViewController.m; path = Classes/BrowserViewController.m; sourceTree = "<group>"; };
+		8C43C8891311C72D005A0867 /* BrowserViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = BrowserViewController.xib; path = Classes/BrowserViewController.xib; sourceTree = "<group>"; };
+		8C50B67D1311AE8500D3EEAC /* LocationGetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; path = LocationGetter.h; sourceTree = "<group>"; };
+		8C50B67E1311AE8500D3EEAC /* LocationGetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationGetter.m; sourceTree = "<group>"; };
+		8C50B6851311AEA000D3EEAC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8C50B6A91311B06500D3EEAC /* DealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; path = DealViewController.h; sourceTree = "<group>"; };
+		8C50B6AA1311B06500D3EEAC /* DealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DealViewController.m; sourceTree = "<group>"; };
+		8C50B6AB1311B06500D3EEAC /* DealViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DealViewController.xib; sourceTree = "<group>"; };
+		8CC44DF4131993A40013AADE /* TCImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; path = TCImageView.h; sourceTree = "<group>"; };
+		8CC44DF5131993A40013AADE /* TCImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCImageView.m; sourceTree = "<group>"; };
+		8CFC15981316F77D0052AD61 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; path = JSON.h; sourceTree = "<group>"; };
+		8CFC15991316F77D0052AD61 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		8CFC159A1316F77D0052AD61 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		8CFC159B1316F77D0052AD61 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		8CFC159C1316F77D0052AD61 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		8CFC159D1316F77D0052AD61 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; path = SBJSON.h; sourceTree = "<group>"; };
+		8CFC159E1316F77D0052AD61 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		8CFC159F1316F77D0052AD61 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		8CFC15A01316F77D0052AD61 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		8CFC15A11316F77D0052AD61 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		8CFC15A21316F77D0052AD61 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		8CFC15A31316F77D0052AD61 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		8CFC15A41316F77D0052AD61 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* DealFork-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DealFork-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				8C50B6861311AEA000D3EEAC /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8CC44DFC131993F20013AADE /* Views */,
+				8CC44DFB131993A80013AADE /* Core */,
+				1D3623240D0F684500981E51 /* DealForkAppDelegate.h */,
+				1D3623250D0F684500981E51 /* DealForkAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* DealFork.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* DealFork_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* DealFork-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+				8C50B6851311AEA000D3EEAC /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C43C8911311C737005A0867 /* Browser View */ = {
+			isa = PBXGroup;
+			children = (
+				8C43C8871311C72D005A0867 /* BrowserViewController.h */,
+				8C43C8881311C72D005A0867 /* BrowserViewController.m */,
+				8C43C8891311C72D005A0867 /* BrowserViewController.xib */,
+			);
+			name = "Browser View";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		8C50B6821311AE8A00D3EEAC /* LocationGetter */ = {
+			isa = PBXGroup;
+			children = (
+				8C50B67D1311AE8500D3EEAC /* LocationGetter.h */,
+				8C50B67E1311AE8500D3EEAC /* LocationGetter.m */,
+			);
+			name = LocationGetter;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8C50B69A1311B02600D3EEAC /* Splash View */ = {
+			isa = PBXGroup;
+			children = (
+				28F335F01007B36200424DE2 /* RootViewController.xib */,
+				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
+				28C286E00D94DF7D0034E888 /* RootViewController.m */,
+			);
+			name = "Splash View";
+			sourceTree = "<group>";
+		};
+		8C50B6B11311B07000D3EEAC /* Deal View */ = {
+			isa = PBXGroup;
+			children = (
+				8C50B6A91311B06500D3EEAC /* DealViewController.h */,
+				8C50B6AA1311B06500D3EEAC /* DealViewController.m */,
+				8C50B6AB1311B06500D3EEAC /* DealViewController.xib */,
+			);
+			name = "Deal View";
+			sourceTree = "<group>";
+		};
+		8CC44DF3131993A40013AADE /* TCIMageView */ = {
+			isa = PBXGroup;
+			children = (
+				8CC44DF4131993A40013AADE /* TCImageView.h */,
+				8CC44DF5131993A40013AADE /* TCImageView.m */,
+			);
+			name = TCIMageView;
+			sourceTree = "<group>";
+		};
+		8CC44DFB131993A80013AADE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8C50B6821311AE8A00D3EEAC /* LocationGetter */,
+				8CC44DF3131993A40013AADE /* TCIMageView */,
+				8CFC15971316F77D0052AD61 /* JSON */,
+			);
+			name = Core;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		8CC44DFC131993F20013AADE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8C43C8911311C737005A0867 /* Browser View */,
+				8C50B6B11311B07000D3EEAC /* Deal View */,
+				8C50B69A1311B02600D3EEAC /* Splash View */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		8CFC15971316F77D0052AD61 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				8CFC15981316F77D0052AD61 /* JSON.h */,
+				8CFC15991316F77D0052AD61 /* NSObject+SBJSON.h */,
+				8CFC159A1316F77D0052AD61 /* NSObject+SBJSON.m */,
+				8CFC159B1316F77D0052AD61 /* NSString+SBJSON.h */,
+				8CFC159C1316F77D0052AD61 /* NSString+SBJSON.m */,
+				8CFC159D1316F77D0052AD61 /* SBJSON.h */,
+				8CFC159E1316F77D0052AD61 /* SBJSON.m */,
+				8CFC159F1316F77D0052AD61 /* SBJsonBase.h */,
+				8CFC15A01316F77D0052AD61 /* SBJsonBase.m */,
+				8CFC15A11316F77D0052AD61 /* SBJsonParser.h */,
+				8CFC15A21316F77D0052AD61 /* SBJsonParser.m */,
+				8CFC15A31316F77D0052AD61 /* SBJsonWriter.h */,
+				8CFC15A41316F77D0052AD61 /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* DealFork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "DealFork" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DealFork;
+			productName = DealFork;
+			productReference = 1D6058910D05DD3D006BFB54 /* DealFork.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DealFork" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* DealFork */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
+				28F335F11007B36200424DE2 /* RootViewController.xib in Resources */,
+				8C50B6AE1311B06500D3EEAC /* DealViewController.xib in Resources */,
+				8C43C88C1311C72D005A0867 /* BrowserViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* DealForkAppDelegate.m in Sources */,
+				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
+				8C50B67F1311AE8500D3EEAC /* LocationGetter.h in Sources */,
+				8C50B6801311AE8500D3EEAC /* LocationGetter.m in Sources */,
+				8C50B6AC1311B06500D3EEAC /* DealViewController.h in Sources */,
+				8C50B6AD1311B06500D3EEAC /* DealViewController.m in Sources */,
+				8C43C88A1311C72D005A0867 /* BrowserViewController.h in Sources */,
+				8C43C88B1311C72D005A0867 /* BrowserViewController.m in Sources */,
+				8CFC15A51316F77D0052AD61 /* JSON.h in Sources */,
+				8CFC15A61316F77D0052AD61 /* NSObject+SBJSON.h in Sources */,
+				8CFC15A71316F77D0052AD61 /* NSObject+SBJSON.m in Sources */,
+				8CFC15A81316F77D0052AD61 /* NSString+SBJSON.h in Sources */,
+				8CFC15A91316F77D0052AD61 /* NSString+SBJSON.m in Sources */,
+				8CFC15AA1316F77D0052AD61 /* SBJSON.h in Sources */,
+				8CFC15AB1316F77D0052AD61 /* SBJSON.m in Sources */,
+				8CFC15AC1316F77D0052AD61 /* SBJsonBase.h in Sources */,
+				8CFC15AD1316F77D0052AD61 /* SBJsonBase.m in Sources */,
+				8CFC15AE1316F77D0052AD61 /* SBJsonParser.h in Sources */,
+				8CFC15AF1316F77D0052AD61 /* SBJsonParser.m in Sources */,
+				8CFC15B01316F77D0052AD61 /* SBJsonWriter.h in Sources */,
+				8CFC15B11316F77D0052AD61 /* SBJsonWriter.m in Sources */,
+				8CC44DF6131993A40013AADE /* TCImageView.h in Sources */,
+				8CC44DF7131993A40013AADE /* TCImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DealFork_Prefix.pch;
+				INFOPLIST_FILE = "DealFork-Info.plist";
+				PRODUCT_NAME = DealFork;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DealFork_Prefix.pch;
+				INFOPLIST_FILE = "DealFork-Info.plist";
+				PRODUCT_NAME = DealFork;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "DealFork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DealFork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
