@@ -1,909 +1,0 @@
-TDealFork
-v7
-r0
-t320477900.380903
-cCheck dependencies
-cProcessInfoPlistFile /Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/DealFork.app/Info.plist DealFork-Info.plist
-cCompileXIB /Users/syalam/Documents/DealFork/MainWindow.xib
-cCompileXIB /Users/syalam/Documents/DealFork/Classes/../RootViewController.xib
-cCompileXIB /Users/syalam/Documents/DealFork/Classes/DealViewController.xib
-cCompileXIB /Users/syalam/Documents/DealFork/Classes/../Classes/BrowserViewController.xib
-cProcessPCH /var/folders/Pw/PwORMoPxHr0eQe8s2hnvSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DealFork_Prefix-dlvqeutqgjwuxyfwlnzgicanefpv/DealFork_Prefix.pch.gch DealFork_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/main.o /Users/syalam/Documents/DealFork/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/DealForkAppDelegate.o /Users/syalam/Documents/DealFork/Classes/DealForkAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/RootViewController.o /Users/syalam/Documents/DealFork/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/LocationGetter-3B357839612E8A8A.o /Users/syalam/Documents/DealFork/Classes/../Classes/LocationGetter.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/DealViewController-9863AD8245DC1B7A.o /Users/syalam/Documents/DealFork/Classes/DealViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/BrowserViewController-5683A7953B187E46.o /Users/syalam/Documents/DealFork/Classes/../Classes/BrowserViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/NSObject+SBJSON-495DC95A9935E672.o /Users/syalam/Documents/DealFork/Classes/../JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/NSString+SBJSON-3A6087AEFC260674.o /Users/syalam/Documents/DealFork/Classes/../JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/SBJSON-2B6346035F162676.o /Users/syalam/Documents/DealFork/Classes/../JSON/SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/SBJsonBase-17CAC26A9C7D5E69.o /Users/syalam/Documents/DealFork/Classes/../JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/SBJsonParser-8CD80BEFF6D7E6B.o /Users/syalam/Documents/DealFork/Classes/../JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/SBJsonWriter-F9D03F13625D9E6D.o /Users/syalam/Documents/DealFork/Classes/../JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/TCImageView-9527072BA5A71E7B.o /Users/syalam/Documents/DealFork/Classes/../TCImageView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/DealFork.app/DealFork normal i386
-cGenerateDSYMFile /Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/DealFork.app.dSYM /Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/DealFork.app/DealFork
-cTouch /Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/DealFork.app
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
-c000000004CC128950000000000000110
-t1287727253
-s272
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004CC12246000000000029B310
-t1287725638
-s2732816
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
-c000000004CC127E80000000000074190
-t1287727080
-s475536
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
-c000000004CC127DD00000000000001D0
-t1287727069
-s464
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004CC1226D000000000029D5D0
-t1287725677
-s2741712
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004CC1225F0000000000001466
-t1287725663
-s5222
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004CC1281F0000000000000AA1
-t1287727135
-s2721
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004CC12883000000000074D7B0
-t1287727235
-s7657392
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/Availability.h
-c000000004CB3FA080000000000001ADD
-t1286863368
-s6877
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/CommonCrypto/CommonDigest.h
-c000000004A11E8210000000000002407
-t1242687521
-s9223
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/stdlib.h
-c000000004CB3E4860000000000002DF5
-t1286857862
-s11765
-
-N/Users/syalam/Documents/DealFork/Classes/../Classes/BrowserViewController.m
-c000000004D696A870000000000000769
-t1298754183
-s1897
-i"BrowserViewController.h"
-
-N/Users/syalam/Documents/DealFork/Classes/../Classes/BrowserViewController.xib
-c000000004D689DF90000000000005BA5
-t1298701817
-s23461
-
-N/Users/syalam/Documents/DealFork/Classes/../Classes/LocationGetter.m
-c000000004C816F4D000000000000061B
-t1283551053
-s1563
-i"LocationGetter.h"
-i<CoreLocation/CoreLocation.h>
-
-N/Users/syalam/Documents/DealFork/Classes/../JSON/JSON.h
-c000000004CB99D8500000000000008F9
-t1287232901
-s2297
-i"SBJSON.h"
-i"NSObject+SBJSON.h"
-i"NSString+SBJSON.h"
-
-N/Users/syalam/Documents/DealFork/Classes/../JSON/NSObject+SBJSON.m
-c000000004CFC7B3C000000000000089E
-t1291615036
-s2206
-i"NSObject+SBJSON.h"
-i"SBJsonWriter.h"
-
-N/Users/syalam/Documents/DealFork/Classes/../JSON/NSString+SBJSON.m
-c000000004CFC7B3C000000000000087D
-t1291615036
-s2173
-i"NSString+SBJSON.h"
-i"SBJsonParser.h"
-
-N/Users/syalam/Documents/DealFork/Classes/../JSON/SBJSON.m
-c000000004CFC7B3C0000000000001ABC
-t1291615036
-s6844
-i"SBJSON.h"
-
-N/Users/syalam/Documents/DealFork/Classes/../JSON/SBJsonBase.m
-c000000004CFC7B3C0000000000000AC1
-t1291615036
-s2753
-i"SBJsonBase.h"
-
-N/Users/syalam/Documents/DealFork/Classes/../JSON/SBJsonParser.m
-c000000004CFC7B3C00000000000036CF
-t1291615036
-s14031
-i"SBJsonParser.h"
-
-N/Users/syalam/Documents/DealFork/Classes/../JSON/SBJsonWriter.m
-c000000004CFC7B3C0000000000001E83
-t1291615036
-s7811
-i"SBJsonWriter.h"
-
-N/Users/syalam/Documents/DealFork/Classes/../RootViewController.xib
-c000000004D6179F30000000000004A00
-t1298233843
-s18944
-
-N/Users/syalam/Documents/DealFork/Classes/../TCImageView.h
-c000000004D695B8600000000000003D8
-t1298750342
-s984
-i<Foundation/Foundation.h>
-
-N/Users/syalam/Documents/DealFork/Classes/../TCImageView.m
-c000000004D695B86000000000000114B
-t1298750342
-s4427
-i"TCImageView.h"
-i<CommonCrypto/CommonDigest.h>
-
-N/Users/syalam/Documents/DealFork/Classes/BrowserViewController.h
-c000000004D696A1700000000000001F8
-t1298754071
-s504
-i<UIKit/UIKit.h>
-
-N/Users/syalam/Documents/DealFork/Classes/BrowserViewController.m
-c000000004D66793D00000000000006C1
-t1298561341
-s1729
-i"BrowserViewController.h"
-
-N/Users/syalam/Documents/DealFork/Classes/BrowserViewController.xib
-c000000004D689DF90000000000005BA5
-t1298701817
-s23461
-
-N/Users/syalam/Documents/DealFork/Classes/DealForkAppDelegate.h
-c000000004D617B5D00000000000001CC
-t1298234205
-s460
-i<UIKit/UIKit.h>
-
-N/Users/syalam/Documents/DealFork/Classes/DealForkAppDelegate.m
-c000000004D61EBE30000000000000AFF
-t1298263011
-s2815
-i"DealForkAppDelegate.h"
-i"RootViewController.h"
-
-N/Users/syalam/Documents/DealFork/Classes/DealView.h
-c000000004D618EA000000000000000D2
-t1298239136
-s210
-i<UIKit/UIKit.h>
-
-N/Users/syalam/Documents/DealFork/Classes/DealView.m
-c000000004D618E9A0000000000000596
-t1298239130
-s1430
-i"DealViewController.h"
-
-N/Users/syalam/Documents/DealFork/Classes/DealView.xib
-c000000004D61791A0000000000004B31
-t1298233626
-s19249
-
-N/Users/syalam/Documents/DealFork/Classes/DealViewController.h
-c000000004D6968DD000000000000063A
-t1298753757
-s1594
-i<UIKit/UIKit.h>
-i"LocationGetter.h"
-i"TCImageView.h"
-
-N/Users/syalam/Documents/DealFork/Classes/DealViewController.m
-c000000004D69E34A0000000000001EDC
-t1298785098
-s7900
-i"DealViewController.h"
-i"BrowserViewController.h"
-i"JSON.h"
-i"TCImageView.h"
-i<stdlib.h>
-
-N/Users/syalam/Documents/DealFork/Classes/DealViewController.xib
-c000000004D69E2910000000000008B9B
-t1298784913
-s35739
-
-N/Users/syalam/Documents/DealFork/Classes/LocationGetter.h
-c000000004C813E3E0000000000000241
-t1283538494
-s577
-i<UIKit/UIKit.h>
-i<CoreLocation/CoreLocation.h>
-
-N/Users/syalam/Documents/DealFork/Classes/LocationGetter.m
-c000000004C816F4D000000000000061B
-t1283551053
-s1563
-i"LocationGetter.h"
-i<CoreLocation/CoreLocation.h>
-
-N/Users/syalam/Documents/DealFork/Classes/RootViewController.h
-c000000004D617B6000000000000001C6
-t1298234208
-s454
-i<UIKit/UIKit.h>
-i"LocationGetter.h"
-
-N/Users/syalam/Documents/DealFork/Classes/RootViewController.m
-c000000004D6965250000000000000B6E
-t1298752805
-s2926
-i"RootViewController.h"
-i"DealViewController.h"
-
-N/Users/syalam/Documents/DealFork/DealFork_Prefix.pch
-c000000004D6175950000000000000142
-t1298232725
-s322
-i<Availability.h>
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/syalam/Documents/DealFork/JSON/JSON.h
-c000000004CB99D8500000000000008F9
-t1287232901
-s2297
-i"SBJSON.h"
-i"NSObject+SBJSON.h"
-i"NSString+SBJSON.h"
-
-N/Users/syalam/Documents/DealFork/JSON/NSObject+SBJSON.h
-c000000004CC9FD9A0000000000000A01
-t1288306074
-s2561
-i<Foundation/Foundation.h>
-
-N/Users/syalam/Documents/DealFork/JSON/NSObject+SBJSON.m
-c000000004CFC7B3C000000000000089E
-t1291615036
-s2206
-i"NSObject+SBJSON.h"
-i"SBJsonWriter.h"
-
-N/Users/syalam/Documents/DealFork/JSON/NSString+SBJSON.h
-c000000004CB99D850000000000000916
-t1287232901
-s2326
-i<Foundation/Foundation.h>
-
-N/Users/syalam/Documents/DealFork/JSON/NSString+SBJSON.m
-c000000004CFC7B3C000000000000087D
-t1291615036
-s2173
-i"NSString+SBJSON.h"
-i"SBJsonParser.h"
-
-N/Users/syalam/Documents/DealFork/JSON/SBJSON.h
-c000000004CC9FD9A0000000000000AED
-t1288306074
-s2797
-i<Foundation/Foundation.h>
-i"SBJsonParser.h"
-i"SBJsonWriter.h"
-
-N/Users/syalam/Documents/DealFork/JSON/SBJSON.m
-c000000004CFC7B3C0000000000001ABC
-t1291615036
-s6844
-i"SBJSON.h"
-
-N/Users/syalam/Documents/DealFork/JSON/SBJsonBase.h
-c000000004CB99D850000000000000B82
-t1287232901
-s2946
-i<Foundation/Foundation.h>
-
-N/Users/syalam/Documents/DealFork/JSON/SBJsonBase.m
-c000000004CFC7B3C0000000000000AC1
-t1291615036
-s2753
-i"SBJsonBase.h"
-
-N/Users/syalam/Documents/DealFork/JSON/SBJsonParser.h
-c000000004CB99D850000000000000C0B
-t1287232901
-s3083
-i<Foundation/Foundation.h>
-i"SBJsonBase.h"
-
-N/Users/syalam/Documents/DealFork/JSON/SBJsonParser.m
-c000000004CFC7B3C00000000000036CF
-t1291615036
-s14031
-i"SBJsonParser.h"
-
-N/Users/syalam/Documents/DealFork/JSON/SBJsonWriter.h
-c000000004CB99D850000000000001140
-t1287232901
-s4416
-i<Foundation/Foundation.h>
-i"SBJsonBase.h"
-
-N/Users/syalam/Documents/DealFork/JSON/SBJsonWriter.m
-c000000004CFC7B3C0000000000001E83
-t1291615036
-s7811
-i"SBJsonWriter.h"
-
-N/Users/syalam/Documents/DealFork/MainWindow.xib
-c000000004D689DD50000000000006674
-t1298701781
-s26228
-
-N/Users/syalam/Documents/DealFork/RootViewController.xib
-c000000004D61788D0000000000004210
-t1298233485
-s16912
-
-N/Users/syalam/Documents/DealFork/TCImageView.h
-c000000004D695B8600000000000003D8
-t1298750342
-s984
-i<Foundation/Foundation.h>
-
-N/Users/syalam/Documents/DealFork/TCImageView.m
-c000000004D695B86000000000000114B
-t1298750342
-s4427
-i"TCImageView.h"
-i<CommonCrypto/CommonDigest.h>
-
-N/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/BrowserViewController-5683A7953B187E46.o
-t1298754185
-s44212
-
-N/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/DealFork.LinkFileList
-c000000004D695C9D0000000000000722
-t1298750621
-s1826
-
-N/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/DealForkAppDelegate.o
-t1298562882
-s54512
-
-N/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/DealView-9863AD8245DC1B7A.o
-t2
-s0
-
-N/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/DealView.o
-t2
-s0
-
-N/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/DealViewController-9863AD8245DC1B7A.o
-t1298785100
-s85944
-
-N/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/LocationGetter-3B357839612E8A8A.o
-t1298750623
-s51104
-
-N/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/NSObject+SBJSON-495DC95A9935E672.o
-t1298750623
-s8296
-
-N/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/NSString+SBJSON-3A6087AEFC260674.o
-t1298750623
-s8216
-
-N/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/RootViewController.o
-t1298753773
-s46124
-
-N/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/SBJSON-2B6346035F162676.o
-t1298750623
-s20080
-
-N/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/SBJsonBase-17CAC26A9C7D5E69.o
-t1298750623
-s13212
-
-N/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/SBJsonParser-8CD80BEFF6D7E6B.o
-t1298750624
-s35884
-
-N/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/SBJsonWriter-F9D03F13625D9E6D.o
-t1298750624
-s24860
-
-N/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/TCImageView-9527072BA5A71E7B.o
-t1298750624
-s54148
-
-N/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/main.o
-t1298562882
-s6292
-
-N/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/DealFork.app
-t1298785100
-s306
-
-N/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/DealFork.app.dSYM
-t1298785100
-s102
-
-N/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/DealFork.app/BrowserViewController.nib
-t1298750622
-s1354
-
-N/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/DealFork.app/DealFork
-t1298785100
-s95368
-
-N/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/DealFork.app/DealView.nib
-t1298233695
-s1082
-
-N/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/DealFork.app/DealViewController.nib
-t1298784916
-s2553
-
-N/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/DealFork.app/Info.plist
-t1298562879
-s595
-
-N/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/DealFork.app/MainWindow.nib
-t1298701783
-s1524
-
-N/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/DealFork.app/PkgInfo
-t1298562879
-s8
-
-N/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/DealFork.app/RootViewController.nib
-t1298562880
-s1431
-
-N/Users/syalam/Documents/DealFork/main.m
-c000000004D617595000000000000015D
-t1298232725
-s349
-i<UIKit/UIKit.h>
-
-N/var/folders/Pw/PwORMoPxHr0eQe8s2hnvSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DealFork_Prefix-dlvqeutqgjwuxyfwlnzgicanefpv/DealFork_Prefix.pch.gch
-t1298562881
-s15453392
-
-NDealFork-Info.plist
-c000000004D617595000000000000038D
-t1298232725
-s909
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies320477900#320477900#0(1484"[WARN]warning: no rule to process file '$(PROJECT_DIR)/Classes/../Classes/LocationGetter.h' of type sourcecode.objj.h for architecture i386[WARN]warning: no rule to process file '$(PROJECT_DIR)/Classes/DealViewController.h' of type sourcecode.objj.h for architecture i386[WARN]warning: no rule to process file '$(PROJECT_DIR)/Classes/../Classes/BrowserViewController.h' of type sourcecode.objj.h for architecture i386[WARN]warning: no rule to process file '$(PROJECT_DIR)/Classes/../JSON/JSON.h' of type sourcecode.objj.h for architecture i386[WARN]warning: no rule to process file '$(PROJECT_DIR)/Classes/../JSON/NSObject+SBJSON.h' of type sourcecode.objj.h for architecture i386[WARN]warning: no rule to process file '$(PROJECT_DIR)/Classes/../JSON/NSString+SBJSON.h' of type sourcecode.objj.h for architecture i386[WARN]warning: no rule to process file '$(PROJECT_DIR)/Classes/../JSON/SBJSON.h' of type sourcecode.objj.h for architecture i386[WARN]warning: no rule to process file '$(PROJECT_DIR)/Classes/../JSON/SBJsonBase.h' of type sourcecode.objj.h for architecture i386[WARN]warning: no rule to process file '$(PROJECT_DIR)/Classes/../JSON/SBJsonParser.h' of type sourcecode.objj.h for architecture i386[WARN]warning: no rule to process file '$(PROJECT_DIR)/Classes/../JSON/SBJsonWriter.h' of type sourcecode.objj.h for architecture i386[WARN]warning: no rule to process file '$(PROJECT_DIR)/Classes/../TCImageView.h' of type sourcecode.objj.h for architecture i38611(22@133"warning: no rule to process file '$(PROJECT_DIR)/Classes/../Classes/LocationGetter.h' of type sourcecode.objj.h for architecture i386320477900#18446744073709551615#0#0(1@0"0(22@126"warning: no rule to process file '$(PROJECT_DIR)/Classes/DealViewController.h' of type sourcecode.objj.h for architecture i386320477900#18446744073709551615#0#0(1@0"0(22@140"warning: no rule to process file '$(PROJECT_DIR)/Classes/../Classes/BrowserViewController.h' of type sourcecode.objj.h for architecture i386320477900#18446744073709551615#0#0(1@0"0(22@120"warning: no rule to process file '$(PROJECT_DIR)/Classes/../JSON/JSON.h' of type sourcecode.objj.h for architecture i386320477900#18446744073709551615#0#0(1@0"0(22@131"warning: no rule to process file '$(PROJECT_DIR)/Classes/../JSON/NSObject+SBJSON.h' of type sourcecode.objj.h for architecture i386320477900#18446744073709551615#0#0(1@0"0(22@131"warning: no rule to process file '$(PROJECT_DIR)/Classes/../JSON/NSString+SBJSON.h' of type sourcecode.objj.h for architecture i386320477900#18446744073709551615#0#0(1@0"0(22@122"warning: no rule to process file '$(PROJECT_DIR)/Classes/../JSON/SBJSON.h' of type sourcecode.objj.h for architecture i386320477900#18446744073709551615#0#0(1@0"0(22@126"warning: no rule to process file '$(PROJECT_DIR)/Classes/../JSON/SBJsonBase.h' of type sourcecode.objj.h for architecture i386320477900#18446744073709551615#0#0(1@0"0(22@128"warning: no rule to process file '$(PROJECT_DIR)/Classes/../JSON/SBJsonParser.h' of type sourcecode.objj.h for architecture i386320477900#18446744073709551615#0#0(1@0"0(22@128"warning: no rule to process file '$(PROJECT_DIR)/Classes/../JSON/SBJsonWriter.h' of type sourcecode.objj.h for architecture i386320477900#18446744073709551615#0#0(1@0"0(22@122"warning: no rule to process file '$(PROJECT_DIR)/Classes/../TCImageView.h' of type sourcecode.objj.h for architecture i386320477900#18446744073709551615#0#0(1@0"0(0#1#0"8612889152#0"0#
-
-CCompileC build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/BrowserViewController-5683A7953B187E46.o /Users/syalam/Documents/DealFork/Classes/../Classes/BrowserViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s320446984.923846
-e320446985.076741
-r1
-xCompileC
-xbuild/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/BrowserViewController-5683A7953B187E46.o
-x/Users/syalam/Documents/DealFork/Classes/../Classes/BrowserViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@83"Compile /Users/syalam/Documents/DealFork/Classes/../Classes/BrowserViewController.m320446984#320446985#0(0"0(0#0#75"/Users/syalam/Documents/DealFork/Classes/../Classes/BrowserViewController.m8623700128#1938"    cd /Users/syalam/Documents/DealFork    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-generated-files.hmap -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-own-target-headers.hmap -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-all-target-headers.hmap -iquote /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-project-headers.hmap -F/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator -I/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/include -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DerivedSources/i386 -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DerivedSources -include /var/folders/Pw/PwORMoPxHr0eQe8s2hnvSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DealFork_Prefix-dlvqeutqgjwuxyfwlnzgicanefpv/DealFork_Prefix.pch -c /Users/syalam/Documents/DealFork/Classes/../Classes/BrowserViewController.m -o /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/BrowserViewController-5683A7953B187E46.o0#
-
-CCompileC build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/BrowserViewController-5683A7953B187E46.o /Users/syalam/Documents/DealFork/Classes/BrowserViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s320255682.167444
-e320255682.253031
-r1
-xCompileC
-xbuild/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/BrowserViewController-5683A7953B187E46.o
-x/Users/syalam/Documents/DealFork/Classes/BrowserViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@72"Compile /Users/syalam/Documents/DealFork/Classes/BrowserViewController.m320255682#320255682#0(0"0(0#0#64"/Users/syalam/Documents/DealFork/Classes/BrowserViewController.m8624690272#1927"    cd /Users/syalam/Documents/DealFork    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-generated-files.hmap -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-own-target-headers.hmap -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-all-target-headers.hmap -iquote /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-project-headers.hmap -F/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator -I/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/include -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DerivedSources/i386 -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DerivedSources -include /var/folders/Pw/PwORMoPxHr0eQe8s2hnvSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DealFork_Prefix-dlvqeutqgjwuxyfwlnzgicanefpv/DealFork_Prefix.pch -c /Users/syalam/Documents/DealFork/Classes/BrowserViewController.m -o /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/BrowserViewController-5683A7953B187E46.o0#
-
-CCompileC build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/DealForkAppDelegate.o /Users/syalam/Documents/DealFork/Classes/DealForkAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s320255681.964864
-e320255682.060649
-r1
-xCompileC
-xbuild/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/DealForkAppDelegate.o
-x/Users/syalam/Documents/DealFork/Classes/DealForkAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@70"Compile /Users/syalam/Documents/DealFork/Classes/DealForkAppDelegate.m320255681#320255682#0(0"0(0#0#62"/Users/syalam/Documents/DealFork/Classes/DealForkAppDelegate.m8623432544#1906"    cd /Users/syalam/Documents/DealFork    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-generated-files.hmap -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-own-target-headers.hmap -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-all-target-headers.hmap -iquote /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-project-headers.hmap -F/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator -I/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/include -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DerivedSources/i386 -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DerivedSources -include /var/folders/Pw/PwORMoPxHr0eQe8s2hnvSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DealFork_Prefix-dlvqeutqgjwuxyfwlnzgicanefpv/DealFork_Prefix.pch -c /Users/syalam/Documents/DealFork/Classes/DealForkAppDelegate.m -o /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/DealForkAppDelegate.o0#
-
-CCompileC build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/DealView-9863AD8245DC1B7A.o /Users/syalam/Documents/DealFork/Classes/DealView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s319931937.276414
-e319931937.420868
-r0
-xCompileC
-xbuild/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/DealView-9863AD8245DC1B7A.o
-x/Users/syalam/Documents/DealFork/Classes/DealView.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/syalam/Documents/DealFork/Classes/DealView.m:9:31: error: DealViewController.h: No such file or directory
-o/Users/syalam/Documents/DealFork/Classes/DealView.m:40: warning: cannot find interface declaration for 'DealViewController'
-o/Users/syalam/Documents/DealFork/Classes/DealView.m: In function '-[DealViewController didReceiveMemoryWarning]':
-o/Users/syalam/Documents/DealFork/Classes/DealView.m:42: error: no super class declared in @interface for 'DealViewController'
-o/Users/syalam/Documents/DealFork/Classes/DealView.m: In function '-[DealViewController viewDidUnload]':
-o/Users/syalam/Documents/DealFork/Classes/DealView.m:48: error: no super class declared in @interface for 'DealViewController'
-o/Users/syalam/Documents/DealFork/Classes/DealView.m: In function '-[DealViewController dealloc]':
-o/Users/syalam/Documents/DealFork/Classes/DealView.m:55: error: no super class declared in @interface for 'DealViewController'
-lSLF07#2@59"Compile /Users/syalam/Documents/DealFork/Classes/DealView.m319931937#319931937#0(931"/Users/syalam/Documents/DealFork/Classes/DealView.m:9:31: error: DealViewController.h: No such file or directory/Users/syalam/Documents/DealFork/Classes/DealView.m:40: warning: cannot find interface declaration for 'DealViewController'/Users/syalam/Documents/DealFork/Classes/DealView.m: In function '-[DealViewController didReceiveMemoryWarning]':/Users/syalam/Documents/DealFork/Classes/DealView.m:42: error: no super class declared in @interface for 'DealViewController'/Users/syalam/Documents/DealFork/Classes/DealView.m: In function '-[DealViewController viewDidUnload]':/Users/syalam/Documents/DealFork/Classes/DealView.m:48: error: no super class declared in @interface for 'DealViewController'/Users/syalam/Documents/DealFork/Classes/DealView.m: In function '-[DealViewController dealloc]':/Users/syalam/Documents/DealFork/Classes/DealView.m:55: error: no super class declared in @interface for 'DealViewController'5(4@47"DealViewController.h: No such file or directory319931937#0#113#0(6@51"/Users/syalam/Documents/DealFork/Classes/DealView.m319931930#9#0#9#0#28"*: No such file or directory0(22@58"Cannot find interface declaration for 'DealViewController'319931937#113#124#0(6@51"/Users/syalam/Documents/DealFork/Classes/DealView.m319931930#40#0#40#0#0"0(4@62"No super class declared in @interface for 'DealViewController'319931937#351#126#0(6@51"/Users/syalam/Documents/DealFork/Classes/DealView.m319931930#42#0#42#0#0"0(4@62"No super class declared in @interface for 'DealViewController'319931937#581#126#0(6@51"/Users/syalam/Documents/DealFork/Classes/DealView.m319931930#48#0#48#0#0"0(4@62"No super class declared in @interface for 'DealViewController'319931937#805#126#0(6@51"/Users/syalam/Documents/DealFork/Classes/DealView.m319931930#55#0#55#0#0"0(0#0#51"/Users/syalam/Documents/DealFork/Classes/DealView.m8590534944#1901"    cd /Users/syalam/Documents/DealFork    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-generated-files.hmap -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-own-target-headers.hmap -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-all-target-headers.hmap -iquote /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-project-headers.hmap -F/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator -I/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/include -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DerivedSources/i386 -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DerivedSources -include /var/folders/Pw/PwORMoPxHr0eQe8s2hnvSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DealFork_Prefix-dlvqeutqgjwuxyfwlnzgicanefpv/DealFork_Prefix.pch -c /Users/syalam/Documents/DealFork/Classes/DealView.m -o /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/DealView-9863AD8245DC1B7A.o1#
-
-CCompileC build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/DealView.o /Users/syalam/Documents/DealFork/Classes/DealView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/DealViewController-9863AD8245DC1B7A.o /Users/syalam/Documents/DealFork/Classes/DealViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s320477900.185608
-e320477900.315435
-r1
-xCompileC
-xbuild/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/DealViewController-9863AD8245DC1B7A.o
-x/Users/syalam/Documents/DealFork/Classes/DealViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@69"Compile /Users/syalam/Documents/DealFork/Classes/DealViewController.m320477900#320477900#0(0"0(0#0#61"/Users/syalam/Documents/DealFork/Classes/DealViewController.m8613796832#1921"    cd /Users/syalam/Documents/DealFork    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-generated-files.hmap -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-own-target-headers.hmap -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-all-target-headers.hmap -iquote /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-project-headers.hmap -F/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator -I/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/include -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DerivedSources/i386 -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DerivedSources -include /var/folders/Pw/PwORMoPxHr0eQe8s2hnvSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DealFork_Prefix-dlvqeutqgjwuxyfwlnzgicanefpv/DealFork_Prefix.pch -c /Users/syalam/Documents/DealFork/Classes/DealViewController.m -o /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/DealViewController-9863AD8245DC1B7A.o0#
-
-CCompileC build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/LocationGetter-3B357839612E8A8A.o /Users/syalam/Documents/DealFork/Classes/../Classes/LocationGetter.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s320443422.447214
-e320443423.503225
-r1
-xCompileC
-xbuild/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/LocationGetter-3B357839612E8A8A.o
-x/Users/syalam/Documents/DealFork/Classes/../Classes/LocationGetter.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@76"Compile /Users/syalam/Documents/DealFork/Classes/../Classes/LocationGetter.m320443422#320443423#0(0"0(0#0#68"/Users/syalam/Documents/DealFork/Classes/../Classes/LocationGetter.m8627535808#1924"    cd /Users/syalam/Documents/DealFork    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-generated-files.hmap -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-own-target-headers.hmap -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-all-target-headers.hmap -iquote /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-project-headers.hmap -F/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator -I/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/include -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DerivedSources/i386 -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DerivedSources -include /var/folders/Pw/PwORMoPxHr0eQe8s2hnvSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DealFork_Prefix-dlvqeutqgjwuxyfwlnzgicanefpv/DealFork_Prefix.pch -c /Users/syalam/Documents/DealFork/Classes/../Classes/LocationGetter.m -o /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/LocationGetter-3B357839612E8A8A.o0#
-
-CCompileC build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/LocationGetter-3B357839612E8A8A.o /Users/syalam/Documents/DealFork/Classes/LocationGetter.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s320255682.060751
-e320255682.167348
-r1
-xCompileC
-xbuild/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/LocationGetter-3B357839612E8A8A.o
-x/Users/syalam/Documents/DealFork/Classes/LocationGetter.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@65"Compile /Users/syalam/Documents/DealFork/Classes/LocationGetter.m320255682#320255682#0(0"0(0#0#57"/Users/syalam/Documents/DealFork/Classes/LocationGetter.m8615143840#1913"    cd /Users/syalam/Documents/DealFork    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-generated-files.hmap -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-own-target-headers.hmap -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-all-target-headers.hmap -iquote /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-project-headers.hmap -F/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator -I/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/include -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DerivedSources/i386 -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DerivedSources -include /var/folders/Pw/PwORMoPxHr0eQe8s2hnvSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DealFork_Prefix-dlvqeutqgjwuxyfwlnzgicanefpv/DealFork_Prefix.pch -c /Users/syalam/Documents/DealFork/Classes/LocationGetter.m -o /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/LocationGetter-3B357839612E8A8A.o0#
-
-CCompileC build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/NSObject+SBJSON-495DC95A9935E672.o /Users/syalam/Documents/DealFork/Classes/../JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s320443423.600357
-e320443423.676337
-r1
-xCompileC
-xbuild/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/NSObject+SBJSON-495DC95A9935E672.o
-x/Users/syalam/Documents/DealFork/Classes/../JSON/NSObject+SBJSON.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@74"Compile /Users/syalam/Documents/DealFork/Classes/../JSON/NSObject+SBJSON.m320443423#320443423#0(0"0(0#0#66"/Users/syalam/Documents/DealFork/Classes/../JSON/NSObject+SBJSON.m8624828992#1923"    cd /Users/syalam/Documents/DealFork    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-generated-files.hmap -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-own-target-headers.hmap -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-all-target-headers.hmap -iquote /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-project-headers.hmap -F/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator -I/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/include -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DerivedSources/i386 -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DerivedSources -include /var/folders/Pw/PwORMoPxHr0eQe8s2hnvSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DealFork_Prefix-dlvqeutqgjwuxyfwlnzgicanefpv/DealFork_Prefix.pch -c /Users/syalam/Documents/DealFork/Classes/../JSON/NSObject+SBJSON.m -o /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/NSObject+SBJSON-495DC95A9935E672.o0#
-
-CCompileC build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/NSObject+SBJSON-495DC95A9935E672.o /Users/syalam/Documents/DealFork/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s320272258.784888
-e320272258.989358
-r1
-xCompileC
-xbuild/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/NSObject+SBJSON-495DC95A9935E672.o
-x/Users/syalam/Documents/DealFork/JSON/NSObject+SBJSON.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@63"Compile /Users/syalam/Documents/DealFork/JSON/NSObject+SBJSON.m320272258#320272258#0(0"0(0#0#55"/Users/syalam/Documents/DealFork/JSON/NSObject+SBJSON.m8614613920#1912"    cd /Users/syalam/Documents/DealFork    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-generated-files.hmap -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-own-target-headers.hmap -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-all-target-headers.hmap -iquote /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-project-headers.hmap -F/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator -I/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/include -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DerivedSources/i386 -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DerivedSources -include /var/folders/Pw/PwORMoPxHr0eQe8s2hnvSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DealFork_Prefix-dlvqeutqgjwuxyfwlnzgicanefpv/DealFork_Prefix.pch -c /Users/syalam/Documents/DealFork/JSON/NSObject+SBJSON.m -o /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/NSObject+SBJSON-495DC95A9935E672.o0#
-
-CCompileC build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/NSString+SBJSON-3A6087AEFC260674.o /Users/syalam/Documents/DealFork/Classes/../JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s320443423.676470
-e320443423.748644
-r1
-xCompileC
-xbuild/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/NSString+SBJSON-3A6087AEFC260674.o
-x/Users/syalam/Documents/DealFork/Classes/../JSON/NSString+SBJSON.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@74"Compile /Users/syalam/Documents/DealFork/Classes/../JSON/NSString+SBJSON.m320443423#320443423#0(0"0(0#0#66"/Users/syalam/Documents/DealFork/Classes/../JSON/NSString+SBJSON.m8626790912#1923"    cd /Users/syalam/Documents/DealFork    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-generated-files.hmap -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-own-target-headers.hmap -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-all-target-headers.hmap -iquote /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-project-headers.hmap -F/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator -I/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/include -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DerivedSources/i386 -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DerivedSources -include /var/folders/Pw/PwORMoPxHr0eQe8s2hnvSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DealFork_Prefix-dlvqeutqgjwuxyfwlnzgicanefpv/DealFork_Prefix.pch -c /Users/syalam/Documents/DealFork/Classes/../JSON/NSString+SBJSON.m -o /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/NSString+SBJSON-3A6087AEFC260674.o0#
-
-CCompileC build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/NSString+SBJSON-3A6087AEFC260674.o /Users/syalam/Documents/DealFork/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s320272258.989464
-e320272259.123502
-r1
-xCompileC
-xbuild/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/NSString+SBJSON-3A6087AEFC260674.o
-x/Users/syalam/Documents/DealFork/JSON/NSString+SBJSON.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@63"Compile /Users/syalam/Documents/DealFork/JSON/NSString+SBJSON.m320272258#320272259#0(0"0(0#0#55"/Users/syalam/Documents/DealFork/JSON/NSString+SBJSON.m7881699988780298240#1912"    cd /Users/syalam/Documents/DealFork    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-generated-files.hmap -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-own-target-headers.hmap -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-all-target-headers.hmap -iquote /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-project-headers.hmap -F/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator -I/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/include -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DerivedSources/i386 -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DerivedSources -include /var/folders/Pw/PwORMoPxHr0eQe8s2hnvSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DealFork_Prefix-dlvqeutqgjwuxyfwlnzgicanefpv/DealFork_Prefix.pch -c /Users/syalam/Documents/DealFork/JSON/NSString+SBJSON.m -o /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/NSString+SBJSON-3A6087AEFC260674.o0#
-
-CCompileC build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/RootViewController.o /Users/syalam/Documents/DealFork/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s320446573.289920
-e320446573.429141
-r1
-xCompileC
-xbuild/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/RootViewController.o
-x/Users/syalam/Documents/DealFork/Classes/RootViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@69"Compile /Users/syalam/Documents/DealFork/Classes/RootViewController.m320446573#320446573#0(0"0(0#0#61"/Users/syalam/Documents/DealFork/Classes/RootViewController.m8605873024#1904"    cd /Users/syalam/Documents/DealFork    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-generated-files.hmap -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-own-target-headers.hmap -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-all-target-headers.hmap -iquote /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-project-headers.hmap -F/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator -I/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/include -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DerivedSources/i386 -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DerivedSources -include /var/folders/Pw/PwORMoPxHr0eQe8s2hnvSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DealFork_Prefix-dlvqeutqgjwuxyfwlnzgicanefpv/DealFork_Prefix.pch -c /Users/syalam/Documents/DealFork/Classes/RootViewController.m -o /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/RootViewController.o0#
-
-CCompileC build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/SBJSON-2B6346035F162676.o /Users/syalam/Documents/DealFork/Classes/../JSON/SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s320443423.677624
-e320443423.785222
-r1
-xCompileC
-xbuild/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/SBJSON-2B6346035F162676.o
-x/Users/syalam/Documents/DealFork/Classes/../JSON/SBJSON.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@65"Compile /Users/syalam/Documents/DealFork/Classes/../JSON/SBJSON.m320443423#320443423#0(0"0(0#0#57"/Users/syalam/Documents/DealFork/Classes/../JSON/SBJSON.m8626044544#1905"    cd /Users/syalam/Documents/DealFork    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-generated-files.hmap -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-own-target-headers.hmap -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-all-target-headers.hmap -iquote /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-project-headers.hmap -F/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator -I/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/include -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DerivedSources/i386 -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DerivedSources -include /var/folders/Pw/PwORMoPxHr0eQe8s2hnvSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DealFork_Prefix-dlvqeutqgjwuxyfwlnzgicanefpv/DealFork_Prefix.pch -c /Users/syalam/Documents/DealFork/Classes/../JSON/SBJSON.m -o /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/SBJSON-2B6346035F162676.o0#
-
-CCompileC build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/SBJSON-2B6346035F162676.o /Users/syalam/Documents/DealFork/JSON/SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s320272259.123601
-e320272259.238705
-r1
-xCompileC
-xbuild/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/SBJSON-2B6346035F162676.o
-x/Users/syalam/Documents/DealFork/JSON/SBJSON.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@54"Compile /Users/syalam/Documents/DealFork/JSON/SBJSON.m320272259#320272259#0(0"0(0#0#46"/Users/syalam/Documents/DealFork/JSON/SBJSON.m8614508480#1894"    cd /Users/syalam/Documents/DealFork    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-generated-files.hmap -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-own-target-headers.hmap -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-all-target-headers.hmap -iquote /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-project-headers.hmap -F/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator -I/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/include -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DerivedSources/i386 -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DerivedSources -include /var/folders/Pw/PwORMoPxHr0eQe8s2hnvSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DealFork_Prefix-dlvqeutqgjwuxyfwlnzgicanefpv/DealFork_Prefix.pch -c /Users/syalam/Documents/DealFork/JSON/SBJSON.m -o /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/SBJSON-2B6346035F162676.o0#
-
-CCompileC build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/SBJsonBase-17CAC26A9C7D5E69.o /Users/syalam/Documents/DealFork/Classes/../JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s320443423.748748
-e320443423.895187
-r1
-xCompileC
-xbuild/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/SBJsonBase-17CAC26A9C7D5E69.o
-x/Users/syalam/Documents/DealFork/Classes/../JSON/SBJsonBase.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@69"Compile /Users/syalam/Documents/DealFork/Classes/../JSON/SBJsonBase.m320443423#320443423#0(0"0(0#0#61"/Users/syalam/Documents/DealFork/Classes/../JSON/SBJsonBase.m8623736448#1913"    cd /Users/syalam/Documents/DealFork    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-generated-files.hmap -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-own-target-headers.hmap -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-all-target-headers.hmap -iquote /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-project-headers.hmap -F/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator -I/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/include -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DerivedSources/i386 -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DerivedSources -include /var/folders/Pw/PwORMoPxHr0eQe8s2hnvSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DealFork_Prefix-dlvqeutqgjwuxyfwlnzgicanefpv/DealFork_Prefix.pch -c /Users/syalam/Documents/DealFork/Classes/../JSON/SBJsonBase.m -o /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/SBJsonBase-17CAC26A9C7D5E69.o0#
-
-CCompileC build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/SBJsonBase-17CAC26A9C7D5E69.o /Users/syalam/Documents/DealFork/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s320272259.133637
-e320272259.213597
-r1
-xCompileC
-xbuild/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/SBJsonBase-17CAC26A9C7D5E69.o
-x/Users/syalam/Documents/DealFork/JSON/SBJsonBase.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@58"Compile /Users/syalam/Documents/DealFork/JSON/SBJsonBase.m320272259#320272259#0(0"0(0#0#50"/Users/syalam/Documents/DealFork/JSON/SBJsonBase.m8614409984#1902"    cd /Users/syalam/Documents/DealFork    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-generated-files.hmap -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-own-target-headers.hmap -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-all-target-headers.hmap -iquote /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-project-headers.hmap -F/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator -I/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/include -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DerivedSources/i386 -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DerivedSources -include /var/folders/Pw/PwORMoPxHr0eQe8s2hnvSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DealFork_Prefix-dlvqeutqgjwuxyfwlnzgicanefpv/DealFork_Prefix.pch -c /Users/syalam/Documents/DealFork/JSON/SBJsonBase.m -o /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/SBJsonBase-17CAC26A9C7D5E69.o0#
-
-CCompileC build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/SBJsonParser-8CD80BEFF6D7E6B.o /Users/syalam/Documents/DealFork/Classes/../JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s320443423.785315
-e320443424.004271
-r1
-xCompileC
-xbuild/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/SBJsonParser-8CD80BEFF6D7E6B.o
-x/Users/syalam/Documents/DealFork/Classes/../JSON/SBJsonParser.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@71"Compile /Users/syalam/Documents/DealFork/Classes/../JSON/SBJsonParser.m320443423#320443424#0(0"0(0#0#63"/Users/syalam/Documents/DealFork/Classes/../JSON/SBJsonParser.m8619680736#1916"    cd /Users/syalam/Documents/DealFork    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-generated-files.hmap -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-own-target-headers.hmap -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-all-target-headers.hmap -iquote /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-project-headers.hmap -F/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator -I/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/include -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DerivedSources/i386 -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DerivedSources -include /var/folders/Pw/PwORMoPxHr0eQe8s2hnvSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DealFork_Prefix-dlvqeutqgjwuxyfwlnzgicanefpv/DealFork_Prefix.pch -c /Users/syalam/Documents/DealFork/Classes/../JSON/SBJsonParser.m -o /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/SBJsonParser-8CD80BEFF6D7E6B.o0#
-
-CCompileC build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/SBJsonParser-8CD80BEFF6D7E6B.o /Users/syalam/Documents/DealFork/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s320272259.213729
-e320272259.372948
-r1
-xCompileC
-xbuild/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/SBJsonParser-8CD80BEFF6D7E6B.o
-x/Users/syalam/Documents/DealFork/JSON/SBJsonParser.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@60"Compile /Users/syalam/Documents/DealFork/JSON/SBJsonParser.m320272259#320272259#0(0"0(0#0#52"/Users/syalam/Documents/DealFork/JSON/SBJsonParser.m8613898624#1905"    cd /Users/syalam/Documents/DealFork    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-generated-files.hmap -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-own-target-headers.hmap -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-all-target-headers.hmap -iquote /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-project-headers.hmap -F/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator -I/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/include -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DerivedSources/i386 -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DerivedSources -include /var/folders/Pw/PwORMoPxHr0eQe8s2hnvSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DealFork_Prefix-dlvqeutqgjwuxyfwlnzgicanefpv/DealFork_Prefix.pch -c /Users/syalam/Documents/DealFork/JSON/SBJsonParser.m -o /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/SBJsonParser-8CD80BEFF6D7E6B.o0#
-
-CCompileC build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/SBJsonWriter-F9D03F13625D9E6D.o /Users/syalam/Documents/DealFork/Classes/../JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s320443423.895301
-e320443424.123771
-r1
-xCompileC
-xbuild/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/SBJsonWriter-F9D03F13625D9E6D.o
-x/Users/syalam/Documents/DealFork/Classes/../JSON/SBJsonWriter.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@71"Compile /Users/syalam/Documents/DealFork/Classes/../JSON/SBJsonWriter.m320443423#320443424#0(0"0(0#0#63"/Users/syalam/Documents/DealFork/Classes/../JSON/SBJsonWriter.m8626763968#1917"    cd /Users/syalam/Documents/DealFork    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-generated-files.hmap -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-own-target-headers.hmap -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-all-target-headers.hmap -iquote /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-project-headers.hmap -F/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator -I/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/include -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DerivedSources/i386 -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DerivedSources -include /var/folders/Pw/PwORMoPxHr0eQe8s2hnvSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DealFork_Prefix-dlvqeutqgjwuxyfwlnzgicanefpv/DealFork_Prefix.pch -c /Users/syalam/Documents/DealFork/Classes/../JSON/SBJsonWriter.m -o /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/SBJsonWriter-F9D03F13625D9E6D.o0#
-
-CCompileC build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/SBJsonWriter-F9D03F13625D9E6D.o /Users/syalam/Documents/DealFork/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s320272259.238800
-e320272259.353486
-r1
-xCompileC
-xbuild/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/SBJsonWriter-F9D03F13625D9E6D.o
-x/Users/syalam/Documents/DealFork/JSON/SBJsonWriter.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@60"Compile /Users/syalam/Documents/DealFork/JSON/SBJsonWriter.m320272259#320272259#0(0"0(0#0#52"/Users/syalam/Documents/DealFork/JSON/SBJsonWriter.m8613691104#1906"    cd /Users/syalam/Documents/DealFork    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-generated-files.hmap -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-own-target-headers.hmap -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-all-target-headers.hmap -iquote /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-project-headers.hmap -F/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator -I/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/include -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DerivedSources/i386 -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DerivedSources -include /var/folders/Pw/PwORMoPxHr0eQe8s2hnvSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DealFork_Prefix-dlvqeutqgjwuxyfwlnzgicanefpv/DealFork_Prefix.pch -c /Users/syalam/Documents/DealFork/JSON/SBJsonWriter.m -o /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/SBJsonWriter-F9D03F13625D9E6D.o0#
-
-CCompileC build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/TCImageView-9527072BA5A71E7B.o /Users/syalam/Documents/DealFork/Classes/../TCImageView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s320443424.004377
-e320443424.142025
-r1
-xCompileC
-xbuild/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/TCImageView-9527072BA5A71E7B.o
-x/Users/syalam/Documents/DealFork/Classes/../TCImageView.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@65"Compile /Users/syalam/Documents/DealFork/Classes/../TCImageView.m320443424#320443424#0(0"0(0#0#57"/Users/syalam/Documents/DealFork/Classes/../TCImageView.m8626046784#1910"    cd /Users/syalam/Documents/DealFork    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-generated-files.hmap -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-own-target-headers.hmap -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-all-target-headers.hmap -iquote /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-project-headers.hmap -F/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator -I/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/include -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DerivedSources/i386 -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DerivedSources -include /var/folders/Pw/PwORMoPxHr0eQe8s2hnvSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DealFork_Prefix-dlvqeutqgjwuxyfwlnzgicanefpv/DealFork_Prefix.pch -c /Users/syalam/Documents/DealFork/Classes/../TCImageView.m -o /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/TCImageView-9527072BA5A71E7B.o0#
-
-CCompileC build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/TCImageView-9527072BA5A71E7B.o /Users/syalam/Documents/DealFork/TCImageView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/main.o /Users/syalam/Documents/DealFork/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s320255681.963822
-e320255682.028049
-r1
-xCompileC
-xbuild/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/main.o
-x/Users/syalam/Documents/DealFork/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@47"Compile /Users/syalam/Documents/DealFork/main.m320255681#320255682#0(0"0(0#0#39"/Users/syalam/Documents/DealFork/main.m8629778592#1868"    cd /Users/syalam/Documents/DealFork    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-generated-files.hmap -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-own-target-headers.hmap -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-all-target-headers.hmap -iquote /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-project-headers.hmap -F/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator -I/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/include -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DerivedSources/i386 -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DerivedSources -include /var/folders/Pw/PwORMoPxHr0eQe8s2hnvSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DealFork_Prefix-dlvqeutqgjwuxyfwlnzgicanefpv/DealFork_Prefix.pch -c /Users/syalam/Documents/DealFork/main.m -o /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/main.o0#
-
-CCompileXIB /Users/syalam/Documents/DealFork/Classes/../Classes/BrowserViewController.xib
-s320443421.341991
-e320443422.445614
-r1
-xCompileXIB
-x/Users/syalam/Documents/DealFork/Classes/../Classes/BrowserViewController.xib
-lSLF07#2@55"CompileXIB Classes/../Classes/BrowserViewController.xib320443421#320443422#0(0"0(0#0#77"/Users/syalam/Documents/DealFork/Classes/../Classes/BrowserViewController.xib8624847392#594"    cd /Users/syalam/Documents/DealFork    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/DealFork.app/BrowserViewController.nib /Users/syalam/Documents/DealFork/Classes/../Classes/BrowserViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCompileXIB /Users/syalam/Documents/DealFork/Classes/../RootViewController.xib
-s320255679.920658
-e320255680.400643
-r1
-xCompileXIB
-x/Users/syalam/Documents/DealFork/Classes/../RootViewController.xib
-lSLF07#2@44"CompileXIB Classes/../RootViewController.xib320255679#320255680#0(0"0(0#0#66"/Users/syalam/Documents/DealFork/Classes/../RootViewController.xib8616673440#580"    cd /Users/syalam/Documents/DealFork    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/DealFork.app/RootViewController.nib /Users/syalam/Documents/DealFork/Classes/../RootViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCompileXIB /Users/syalam/Documents/DealFork/Classes/BrowserViewController.xib
-s320394619.403693
-e320394619.860178
-r1
-xCompileXIB
-x/Users/syalam/Documents/DealFork/Classes/BrowserViewController.xib
-lSLF07#2@44"CompileXIB Classes/BrowserViewController.xib320394619#320394619#0(0"0(0#0#66"/Users/syalam/Documents/DealFork/Classes/BrowserViewController.xib8611630976#583"    cd /Users/syalam/Documents/DealFork    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/DealFork.app/BrowserViewController.nib /Users/syalam/Documents/DealFork/Classes/BrowserViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCompileXIB /Users/syalam/Documents/DealFork/Classes/DealView.xib
-s319926494.552468
-e319926495.800156
-r1
-xCompileXIB
-x/Users/syalam/Documents/DealFork/Classes/DealView.xib
-lSLF07#2@31"CompileXIB Classes/DealView.xib319926494#319926495#0(0"0(0#0#53"/Users/syalam/Documents/DealFork/Classes/DealView.xib8615055648#557"    cd /Users/syalam/Documents/DealFork    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/DealFork.app/DealView.nib /Users/syalam/Documents/DealFork/Classes/DealView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCompileXIB /Users/syalam/Documents/DealFork/Classes/DealViewController.xib
-s320477716.098635
-e320477716.544381
-r1
-xCompileXIB
-x/Users/syalam/Documents/DealFork/Classes/DealViewController.xib
-lSLF07#2@41"CompileXIB Classes/DealViewController.xib320477716#320477716#0(0"0(0#0#63"/Users/syalam/Documents/DealFork/Classes/DealViewController.xib8613183744#577"    cd /Users/syalam/Documents/DealFork    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/DealFork.app/DealViewController.nib /Users/syalam/Documents/DealFork/Classes/DealViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCompileXIB /Users/syalam/Documents/DealFork/MainWindow.xib
-s320394582.799441
-e320394583.270455
-r1
-xCompileXIB
-x/Users/syalam/Documents/DealFork/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib320394582#320394583#0(0"0(0#0#47"/Users/syalam/Documents/DealFork/MainWindow.xib31244023069671520#553"    cd /Users/syalam/Documents/DealFork    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/DealFork.app/MainWindow.nib /Users/syalam/Documents/DealFork/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCompileXIB /Users/syalam/Documents/DealFork/RootViewController.xib
-s319926287.970106
-e319926289.758200
-r1
-xCompileXIB
-x/Users/syalam/Documents/DealFork/RootViewController.xib
-lSLF07#2@33"CompileXIB RootViewController.xib319926287#319926289#0(0"0(0#0#55"/Users/syalam/Documents/DealFork/RootViewController.xib8596122624#569"    cd /Users/syalam/Documents/DealFork    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/DealFork.app/RootViewController.nib /Users/syalam/Documents/DealFork/RootViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CGenerateDSYMFile /Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/DealFork.app.dSYM /Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/DealFork.app/DealFork
-s320477900.351858
-e320477900.378252
-r1
-xGenerateDSYMFile
-x/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/DealFork.app.dSYM
-x/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/DealFork.app/DealFork
-lSLF07#2@112"GenerateDSYMFile build/Debug-iphonesimulator/DealFork.app.dSYM build/Debug-iphonesimulator/DealFork.app/DealFork320477900#320477900#0(0"0(0#0#82"/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/DealFork.app/DealFork8613175904#368"    cd /Users/syalam/Documents/DealFork    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/DealFork.app/DealFork -o /Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/DealFork.app.dSYM0#
-
-CLd /Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/DealFork.app/DealFork normal i386
-s320477900.315515
-e320477900.351754
-r1
-xLd
-x/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/DealFork.app/DealFork
-xnormal
-xi386
-lSLF07#2@87"Link /Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/DealFork.app/DealFork320477900#320477900#0(0"0(0#0#0"8613856256#899"    cd /Users/syalam/Documents/DealFork    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator -F/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator -filelist /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/Objects-normal/i386/DealFork.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -o /Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/DealFork.app/DealFork0#
-
-CProcessInfoPlistFile /Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/DealFork.app/Info.plist DealFork-Info.plist
-s320255679.881075
-e320255679.919746
-r1
-xProcessInfoPlistFile
-x/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/DealFork.app/Info.plist
-xDealFork-Info.plist
-lSLF07#2@27"Process DealFork-Info.plist320255679#320255679#0(0"0(0#0#52"/Users/syalam/Documents/DealFork/DealFork-Info.plist8620110912#464"    cd /Users/syalam/Documents/DealFork    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility DealFork-Info.plist -genpkginfo /Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/DealFork.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/DealFork.app/Info.plist0#
-
-CProcessPCH /var/folders/Pw/PwORMoPxHr0eQe8s2hnvSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DealFork_Prefix-dlvqeutqgjwuxyfwlnzgicanefpv/DealFork_Prefix.pch.gch DealFork_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s320255680.846050
-e320255681.963675
-r1
-xProcessPCH
-x/var/folders/Pw/PwORMoPxHr0eQe8s2hnvSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DealFork_Prefix-dlvqeutqgjwuxyfwlnzgicanefpv/DealFork_Prefix.pch.gch
-xDealFork_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@30"Precompile DealFork_Prefix.pch320255680#320255681#0(0"0(0#0#52"/Users/syalam/Documents/DealFork/DealFork_Prefix.pch8623952288#1765"    cd /Users/syalam/Documents/DealFork    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-generated-files.hmap -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-own-target-headers.hmap -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-all-target-headers.hmap -iquote /Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DealFork-project-headers.hmap -F/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator -I/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/include -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DerivedSources/i386 -I/Users/syalam/Documents/DealFork/build/DealFork.build/Debug-iphonesimulator/DealFork.build/DerivedSources -c /Users/syalam/Documents/DealFork/DealFork_Prefix.pch -o /var/folders/Pw/PwORMoPxHr0eQe8s2hnvSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DealFork_Prefix-dlvqeutqgjwuxyfwlnzgicanefpv/DealFork_Prefix.pch.gch0#
-
-CTouch /Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/DealFork.app
-s320477900.378539
-e320477900.380867
-r1
-xTouch
-x/Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/DealFork.app
-lSLF07#2@79"Touch /Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/DealFork.app320477900#320477900#0(0"0(0#0#0"8613113952#267"    cd /Users/syalam/Documents/DealFork    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/syalam/Documents/DealFork/build/Debug-iphonesimulator/DealFork.app0#
-
