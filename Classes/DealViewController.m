@@ -159,12 +159,13 @@
 }
 
 -(IBAction)likeButtonClicked:(id)sender{
-	UIAlertView *alert = [[[UIAlertView alloc] initWithTitle:@"Like" 
+	[self displayDeal];
+	/*UIAlertView *alert = [[[UIAlertView alloc] initWithTitle:@"Like" 
 													message:@"Send stats to Flurry" 
 													delegate:self 
 													cancelButtonTitle:@"Cancel" 
 													otherButtonTitles:nil] autorelease];
-	[alert show];
+	[alert show];*/
 }
 
 -(IBAction)dislikeButtonClicked:(id)sender
