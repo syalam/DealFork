@@ -24,6 +24,11 @@
 		8C50B6AC1311B06500D3EEAC /* DealViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 8C50B6A91311B06500D3EEAC /* DealViewController.h */; };
 		8C50B6AD1311B06500D3EEAC /* DealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C50B6AA1311B06500D3EEAC /* DealViewController.m */; };
 		8C50B6AE1311B06500D3EEAC /* DealViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C50B6AB1311B06500D3EEAC /* DealViewController.xib */; };
+		8CC0BD801321FA4F0090B785 /* FlurryAdDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 8CC0BD7B1321FA4F0090B785 /* FlurryAdDelegate.h */; };
+		8CC0BD811321FA4F0090B785 /* FlurryAPI+AppCircle.h in Sources */ = {isa = PBXBuildFile; fileRef = 8CC0BD7C1321FA4F0090B785 /* FlurryAPI+AppCircle.h */; };
+		8CC0BD821321FA4F0090B785 /* FlurryOffer.h in Sources */ = {isa = PBXBuildFile; fileRef = 8CC0BD7D1321FA4F0090B785 /* FlurryOffer.h */; };
+		8CC0BD831321FA4F0090B785 /* FlurryAPI.h in Sources */ = {isa = PBXBuildFile; fileRef = 8CC0BD7E1321FA4F0090B785 /* FlurryAPI.h */; };
+		8CC0BD841321FA4F0090B785 /* libFlurry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CC0BD7F1321FA4F0090B785 /* libFlurry.a */; };
 		8CC44DF6131993A40013AADE /* TCImageView.h in Sources */ = {isa = PBXBuildFile; fileRef = 8CC44DF4131993A40013AADE /* TCImageView.h */; };
 		8CC44DF7131993A40013AADE /* TCImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC44DF5131993A40013AADE /* TCImageView.m */; };
 		8CFC15A51316F77D0052AD61 /* JSON.h in Sources */ = {isa = PBXBuildFile; fileRef = 8CFC15981316F77D0052AD61 /* JSON.h */; };
@@ -63,6 +68,11 @@
 		8C50B6A91311B06500D3EEAC /* DealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; path = DealViewController.h; sourceTree = "<group>"; };
 		8C50B6AA1311B06500D3EEAC /* DealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DealViewController.m; sourceTree = "<group>"; };
 		8C50B6AB1311B06500D3EEAC /* DealViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DealViewController.xib; sourceTree = "<group>"; };
+		8CC0BD7B1321FA4F0090B785 /* FlurryAdDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; path = FlurryAdDelegate.h; sourceTree = "<group>"; };
+		8CC0BD7C1321FA4F0090B785 /* FlurryAPI+AppCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; path = "FlurryAPI+AppCircle.h"; sourceTree = "<group>"; };
+		8CC0BD7D1321FA4F0090B785 /* FlurryOffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; path = FlurryOffer.h; sourceTree = "<group>"; };
+		8CC0BD7E1321FA4F0090B785 /* FlurryAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; path = FlurryAPI.h; sourceTree = "<group>"; };
+		8CC0BD7F1321FA4F0090B785 /* libFlurry.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry.a; sourceTree = "<group>"; };
 		8CC44DF4131993A40013AADE /* TCImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; path = TCImageView.h; sourceTree = "<group>"; };
 		8CC44DF5131993A40013AADE /* TCImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCImageView.m; sourceTree = "<group>"; };
 		8CFC15981316F77D0052AD61 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; path = JSON.h; sourceTree = "<group>"; };
@@ -90,6 +100,7 @@
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
 				8C50B6861311AEA000D3EEAC /* CoreLocation.framework in Frameworks */,
+				8CC0BD841321FA4F0090B785 /* libFlurry.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +110,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				8CC0BD791321FA4F0090B785 /* FlurryLib */,
 				8CC44DFC131993F20013AADE /* Views */,
 				8CC44DFB131993A80013AADE /* Core */,
 				1D3623240D0F684500981E51 /* DealForkAppDelegate.h */,
@@ -195,6 +207,26 @@
 				8C50B6AB1311B06500D3EEAC /* DealViewController.xib */,
 			);
 			name = "Deal View";
+			sourceTree = "<group>";
+		};
+		8CC0BD791321FA4F0090B785 /* FlurryLib */ = {
+			isa = PBXGroup;
+			children = (
+				8CC0BD7A1321FA4F0090B785 /* AppCircle */,
+				8CC0BD7E1321FA4F0090B785 /* FlurryAPI.h */,
+				8CC0BD7F1321FA4F0090B785 /* libFlurry.a */,
+			);
+			path = FlurryLib;
+			sourceTree = "<group>";
+		};
+		8CC0BD7A1321FA4F0090B785 /* AppCircle */ = {
+			isa = PBXGroup;
+			children = (
+				8CC0BD7B1321FA4F0090B785 /* FlurryAdDelegate.h */,
+				8CC0BD7C1321FA4F0090B785 /* FlurryAPI+AppCircle.h */,
+				8CC0BD7D1321FA4F0090B785 /* FlurryOffer.h */,
+			);
+			path = AppCircle;
 			sourceTree = "<group>";
 		};
 		8CC44DF3131993A40013AADE /* TCIMageView */ = {
@@ -335,6 +367,10 @@
 				8CFC15B11316F77D0052AD61 /* SBJsonWriter.m in Sources */,
 				8CC44DF6131993A40013AADE /* TCImageView.h in Sources */,
 				8CC44DF7131993A40013AADE /* TCImageView.m in Sources */,
+				8CC0BD801321FA4F0090B785 /* FlurryAdDelegate.h in Sources */,
+				8CC0BD811321FA4F0090B785 /* FlurryAPI+AppCircle.h in Sources */,
+				8CC0BD821321FA4F0090B785 /* FlurryOffer.h in Sources */,
+				8CC0BD831321FA4F0090B785 /* FlurryAPI.h in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +387,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = DealFork_Prefix.pch;
 				INFOPLIST_FILE = "DealFork-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Classes/FlurryLib\"",
+				);
 				PRODUCT_NAME = DealFork;
 			};
 			name = Debug;
@@ -363,6 +403,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = DealFork_Prefix.pch;
 				INFOPLIST_FILE = "DealFork-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Classes/FlurryLib\"",
+				);
 				PRODUCT_NAME = DealFork;
 				VALIDATE_PRODUCT = YES;
 			};

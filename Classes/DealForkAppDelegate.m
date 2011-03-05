@@ -8,7 +8,7 @@
 
 #import "DealForkAppDelegate.h"
 #import "RootViewController.h"
-
+#import "FlurryAPI.h"
 
 @implementation DealForkAppDelegate
 
@@ -19,7 +19,10 @@
 #pragma mark Application lifecycle
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {        	
-    RootViewController* rvc = [[RootViewController alloc] initWithNibName:@"RootViewController" bundle:nil];
+    //setup flurry
+	[FlurryAPI startSession:@"D9XUPT16R8MWBUP8SDB3"];
+	
+	RootViewController* rvc = [[RootViewController alloc] initWithNibName:@"RootViewController" bundle:nil];
 	[self.navigationController initWithRootViewController:rvc];
 	
 	// Add the navigation controller's view to the window and display.
