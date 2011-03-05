@@ -153,6 +153,9 @@
 
 #pragma mark IBActions
 -(IBAction)buyButtonClicked:(id)sender{
+	NSDictionary *params = [NSDictionary dictionaryWithObjectsAndKeys:[aDeal valueForKey:@"title"], @"deal", nil];
+	[FlurryAPI logEvent:@"ORDER_BUTTON_CLICKED" withParameters:params];
+	
 	BrowserViewController* bvc = [[BrowserViewController alloc] initWithNibName:@"BrowserViewController" bundle:nil];
 	bvc.url = [aDeal valueForKey:@"url"];
 	[self.navigationController setNavigationBarHidden:NO];
