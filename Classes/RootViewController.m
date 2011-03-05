@@ -8,6 +8,7 @@
 
 #import "RootViewController.h"
 #import "DealViewController.h"
+#import "FlurryAPI.h"
 
 @implementation RootViewController
 @synthesize spinner;
@@ -96,10 +97,10 @@
 	
 	[spinner stopAnimating];
 	
-    // Alert user
-    /*UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Location Found" message:[NSString stringWithFormat:@"Found physical location.  %f %f", self.lastKnownLocation.coordinate.latitude, self.lastKnownLocation.coordinate.longitude] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
-    [alert show];
-    [alert release]; */
+	[FlurryAPI setLatitude:lastKnownLocation.coordinate.latitude
+				 longitude:lastKnownLocation.coordinate.longitude 
+		horizontalAccuracy:lastKnownLocation.horizontalAccuracy 
+		  verticalAccuracy:lastKnownLocation.verticalAccuracy];
 	
 	//Show the deals
 	DealViewController *dvc = [[DealViewController alloc] initWithNibName:@"DealViewController" bundle:nil];
