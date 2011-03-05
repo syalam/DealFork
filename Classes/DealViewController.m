@@ -163,24 +163,14 @@
 }
 
 -(IBAction)likeButtonClicked:(id)sender{
+	NSDictionary *params = [NSDictionary dictionaryWithObjectsAndKeys:[aDeal valueForKey:@"title"], @"deal", nil];
+	[FlurryAPI logEvent:@"NEXT_BUTTON_CLICKED" withParameters:params];
+
 	[self displayDeal];
-	/*UIAlertView *alert = [[[UIAlertView alloc] initWithTitle:@"Like" 
-													message:@"Send stats to Flurry" 
-													delegate:self 
-													cancelButtonTitle:@"Cancel" 
-													otherButtonTitles:nil] autorelease];
-	[alert show];*/
 }
 
 -(IBAction)dislikeButtonClicked:(id)sender
 {
-	/*UIAlertView *alert = [[[UIAlertView alloc] initWithTitle:@"Dislike" 
-													 message:@"Send stats to Flurry" 
-													delegate:self 
-										   cancelButtonTitle:@"Cancel" 
-										   otherButtonTitles:nil] autorelease];
-	[alert show];*/
-	
 	NSDictionary *params = [NSDictionary dictionaryWithObjectsAndKeys:[aDeal valueForKey:@"title"], @"deal", nil];
 	[FlurryAPI logEvent:@"DISLIKE_BUTTON_CLICKED" withParameters:params];
 	
