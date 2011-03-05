@@ -7,7 +7,7 @@
 //
 
 #import "BrowserViewController.h"
-
+#import "FlurryAPI.h"
 
 @implementation BrowserViewController
 @synthesize closeButton, webView, url;
@@ -71,6 +71,9 @@
 #pragma mark IBAction Methods
 -(IBAction)closeBrowser:(id)sender
 {
+	NSDictionary *params = [NSDictionary dictionaryWithObjectsAndKeys:url, @"url", nil];
+	[FlurryAPI logEvent:@"CLOSE_BUTTON_CLICKED" withParameters:params];
+	
 	[self dismissModalViewControllerAnimated:YES];
 }
 
