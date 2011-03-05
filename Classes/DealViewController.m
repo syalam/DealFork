@@ -11,6 +11,7 @@
 #import "JSON.h"
 #import "TCImageView.h"
 #include <stdlib.h>
+#import "FlurryAPI.h"
 
 @implementation DealViewController
 @synthesize buyButton, dislikeButton, likeButton, items, receivedData, lastKnownLocation, dealImageView;
@@ -170,12 +171,15 @@
 
 -(IBAction)dislikeButtonClicked:(id)sender
 {
-	UIAlertView *alert = [[[UIAlertView alloc] initWithTitle:@"Dislike" 
+	/*UIAlertView *alert = [[[UIAlertView alloc] initWithTitle:@"Dislike" 
 													 message:@"Send stats to Flurry" 
 													delegate:self 
 										   cancelButtonTitle:@"Cancel" 
 										   otherButtonTitles:nil] autorelease];
-	[alert show];
+	[alert show];*/
+	
+	NSDictionary *params = [NSDictionary dictionaryWithObjectsAndKeys:[aDeal valueForKey:@"title"], @"deal", nil];
+	[FlurryAPI logEvent:@"DISLIKE_BUTTON_CLICKED" withParameters:params];
 	
 }
 
