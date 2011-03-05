@@ -22,6 +22,8 @@
     //setup flurry
 	[FlurryAPI startSession:@"D9XUPT16R8MWBUP8SDB3"];
 	
+	[FlurryAPI logAllPageViews:self.navigationController];
+	
 	RootViewController* rvc = [[RootViewController alloc] initWithNibName:@"RootViewController" bundle:nil];
 	[self.navigationController initWithRootViewController:rvc];
 	
