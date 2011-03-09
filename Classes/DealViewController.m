@@ -137,9 +137,12 @@
 -(void)loadDeals
 {
 	//JSON URL
-	NSString* url = [NSString stringWithFormat:@"http://api.yipit.com/v1/deals/?key=a4p2ZB3R5ByDtHGk&lat=%f&lon=%f&tag=restaurants", 
-					 lastKnownLocation.coordinate.latitude, lastKnownLocation.coordinate.longitude];	
+	//NSString* url = [NSString stringWithFormat:@"http://api.yipit.com/v1/deals/?key=a4p2ZB3R5ByDtHGk&lat=%f&lon=%f&tag=restaurants", 
+	//lastKnownLocation.coordinate.latitude, lastKnownLocation.coordinate.longitude];	
 	
+	NSString* url = @"http://api.yipit.com/v1/deals/?key=a4p2ZB3R5ByDtHGk&division=new-york&tag=restaurants";
+
+		
 	// Prepare URL request to download statuses from StockTwits
 	NSURLRequest *theRequest = [NSURLRequest requestWithURL:[NSURL URLWithString:url]];
 	conn=[[NSURLConnection alloc] initWithRequest:theRequest delegate:self];

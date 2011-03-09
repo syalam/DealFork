@@ -24,6 +24,16 @@
 		8C50B6AC1311B06500D3EEAC /* DealViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 8C50B6A91311B06500D3EEAC /* DealViewController.h */; };
 		8C50B6AD1311B06500D3EEAC /* DealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C50B6AA1311B06500D3EEAC /* DealViewController.m */; };
 		8C50B6AE1311B06500D3EEAC /* DealViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C50B6AB1311B06500D3EEAC /* DealViewController.xib */; };
+		8C9B733313270B8300800349 /* appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C9B732913270B8300800349 /* appicon.png */; };
+		8C9B733413270B8300800349 /* appicon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C9B732A13270B8300800349 /* appicon@2x.png */; };
+		8C9B733513270B8300800349 /* button-getdeal.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C9B732B13270B8300800349 /* button-getdeal.png */; };
+		8C9B733613270B8300800349 /* button-getdeal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C9B732C13270B8300800349 /* button-getdeal@2x.png */; };
+		8C9B733713270B8300800349 /* icon-next.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C9B732D13270B8300800349 /* icon-next.png */; };
+		8C9B733813270B8300800349 /* icon-next@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C9B732E13270B8300800349 /* icon-next@2x.png */; };
+		8C9B733913270B8300800349 /* icon-x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C9B732F13270B8300800349 /* icon-x.png */; };
+		8C9B733A13270B8300800349 /* icon-x@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C9B733013270B8300800349 /* icon-x@2x.png */; };
+		8C9B733B13270B8300800349 /* toplogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C9B733113270B8300800349 /* toplogo.png */; };
+		8C9B733C13270B8300800349 /* toplogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C9B733213270B8300800349 /* toplogo@2x.png */; };
 		8CC0BD801321FA4F0090B785 /* FlurryAdDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 8CC0BD7B1321FA4F0090B785 /* FlurryAdDelegate.h */; };
 		8CC0BD811321FA4F0090B785 /* FlurryAPI+AppCircle.h in Sources */ = {isa = PBXBuildFile; fileRef = 8CC0BD7C1321FA4F0090B785 /* FlurryAPI+AppCircle.h */; };
 		8CC0BD821321FA4F0090B785 /* FlurryOffer.h in Sources */ = {isa = PBXBuildFile; fileRef = 8CC0BD7D1321FA4F0090B785 /* FlurryOffer.h */; };
@@ -68,6 +78,16 @@
 		8C50B6A91311B06500D3EEAC /* DealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; path = DealViewController.h; sourceTree = "<group>"; };
 		8C50B6AA1311B06500D3EEAC /* DealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DealViewController.m; sourceTree = "<group>"; };
 		8C50B6AB1311B06500D3EEAC /* DealViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DealViewController.xib; sourceTree = "<group>"; };
+		8C9B732913270B8300800349 /* appicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon.png; sourceTree = "<group>"; };
+		8C9B732A13270B8300800349 /* appicon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appicon@2x.png"; sourceTree = "<group>"; };
+		8C9B732B13270B8300800349 /* button-getdeal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-getdeal.png"; sourceTree = "<group>"; };
+		8C9B732C13270B8300800349 /* button-getdeal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-getdeal@2x.png"; sourceTree = "<group>"; };
+		8C9B732D13270B8300800349 /* icon-next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-next.png"; sourceTree = "<group>"; };
+		8C9B732E13270B8300800349 /* icon-next@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-next@2x.png"; sourceTree = "<group>"; };
+		8C9B732F13270B8300800349 /* icon-x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-x.png"; sourceTree = "<group>"; };
+		8C9B733013270B8300800349 /* icon-x@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-x@2x.png"; sourceTree = "<group>"; };
+		8C9B733113270B8300800349 /* toplogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toplogo.png; sourceTree = "<group>"; };
+		8C9B733213270B8300800349 /* toplogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toplogo@2x.png"; sourceTree = "<group>"; };
 		8CC0BD7B1321FA4F0090B785 /* FlurryAdDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; path = FlurryAdDelegate.h; sourceTree = "<group>"; };
 		8CC0BD7C1321FA4F0090B785 /* FlurryAPI+AppCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; path = "FlurryAPI+AppCircle.h"; sourceTree = "<group>"; };
 		8CC0BD7D1321FA4F0090B785 /* FlurryOffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; path = FlurryOffer.h; sourceTree = "<group>"; };
@@ -151,6 +171,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8C9B732413270B5200800349 /* Images */,
 				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* DealFork-Info.plist */,
 			);
@@ -207,6 +228,23 @@
 				8C50B6AB1311B06500D3EEAC /* DealViewController.xib */,
 			);
 			name = "Deal View";
+			sourceTree = "<group>";
+		};
+		8C9B732413270B5200800349 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8C9B732913270B8300800349 /* appicon.png */,
+				8C9B732A13270B8300800349 /* appicon@2x.png */,
+				8C9B732B13270B8300800349 /* button-getdeal.png */,
+				8C9B732C13270B8300800349 /* button-getdeal@2x.png */,
+				8C9B732D13270B8300800349 /* icon-next.png */,
+				8C9B732E13270B8300800349 /* icon-next@2x.png */,
+				8C9B732F13270B8300800349 /* icon-x.png */,
+				8C9B733013270B8300800349 /* icon-x@2x.png */,
+				8C9B733113270B8300800349 /* toplogo.png */,
+				8C9B733213270B8300800349 /* toplogo@2x.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 		8CC0BD791321FA4F0090B785 /* FlurryLib */ = {
@@ -333,6 +371,16 @@
 				28F335F11007B36200424DE2 /* RootViewController.xib in Resources */,
 				8C50B6AE1311B06500D3EEAC /* DealViewController.xib in Resources */,
 				8C43C88C1311C72D005A0867 /* BrowserViewController.xib in Resources */,
+				8C9B733313270B8300800349 /* appicon.png in Resources */,
+				8C9B733413270B8300800349 /* appicon@2x.png in Resources */,
+				8C9B733513270B8300800349 /* button-getdeal.png in Resources */,
+				8C9B733613270B8300800349 /* button-getdeal@2x.png in Resources */,
+				8C9B733713270B8300800349 /* icon-next.png in Resources */,
+				8C9B733813270B8300800349 /* icon-next@2x.png in Resources */,
+				8C9B733913270B8300800349 /* icon-x.png in Resources */,
+				8C9B733A13270B8300800349 /* icon-x@2x.png in Resources */,
+				8C9B733B13270B8300800349 /* toplogo.png in Resources */,
+				8C9B733C13270B8300800349 /* toplogo@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
