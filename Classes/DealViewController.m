@@ -140,6 +140,8 @@
     dealImageView.frame = CGRectMake(19.0, 20.0, 100.0, 80.0);
 	[dealImageView loadImage];
 	[self.view addSubview:dealImageView];
+    
+    dealIndex++;
 }
 
 -(void)loadDeals
@@ -177,7 +179,6 @@
 	NSDictionary *params = [NSDictionary dictionaryWithObjectsAndKeys:[aDeal valueForKey:@"title"], @"deal", nil];
 	[FlurryAPI logEvent:@"NEXT_BUTTON_CLICKED" withParameters:params];
 
-    dealIndex++;
 	[self displayDeal:dealIndex];
 }
 
@@ -253,7 +254,6 @@
 - (void)motionEnded:(UIEventSubtype)motion withEvent:(UIEvent *)event {	
     if (motion == UIEventSubtypeMotionShake) {
         NSLog(@"BOOM SHAKA LAKA!");
-        dealIndex++;
         [self displayDeal:dealIndex];
     }
     else {
