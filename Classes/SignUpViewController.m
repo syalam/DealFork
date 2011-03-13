@@ -22,6 +22,8 @@
 
 - (void)dealloc
 {
+    [SignUpButton release];
+    [CloseButton release];
     [super dealloc];
 }
 
@@ -43,6 +45,10 @@
 
 - (void)viewDidUnload
 {
+    [SignUpButton release];
+    SignUpButton = nil;
+    [CloseButton release];
+    CloseButton = nil;
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -54,4 +60,11 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+- (IBAction)closeButtonClicked:(id)sender {
+    [self dismissModalViewControllerAnimated:YES];
+}
+
+- (IBAction)signUpButtonClicked:(id)sender {
+    NSLog(@"do mailchimp stuff here");
+}
 @end

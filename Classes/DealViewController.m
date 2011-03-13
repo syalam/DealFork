@@ -12,6 +12,7 @@
 #import "TCImageView.h"
 #include <stdlib.h>
 #import "FlurryAPI.h"
+#import "SignUpViewController.h"
 
 @implementation DealViewController
 @synthesize buyButton, dislikeButton, likeButton, items, receivedData, lastKnownLocation, dealImageView;
@@ -113,7 +114,12 @@
     if(index < [items count])
         aDeal = [items objectAtIndex:index];
     else
+    {
         NSLog(@"SHOW DEAL FORK SIGNUP HERE!");
+        SignUpViewController* svc = [[SignUpViewController alloc] initWithNibName:@"SignUpViewController" bundle:nil];
+        [self.navigationController setNavigationBarHidden:NO];
+        [self.navigationController presentModalViewController:svc animated:YES];
+    }
 	
 	//Populate the Labels
 	NSArray *locations = [[aDeal objectForKey:@"business"] valueForKey:@"locations"];

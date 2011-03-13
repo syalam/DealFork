@@ -10,7 +10,11 @@
 
 
 @interface SignUpViewController : UIViewController {
-    
+    IBOutlet UIBarButtonItem *CloseButton;
+    IBOutlet UIBarButtonItem *SignUpButton;
 }
+
+- (IBAction)closeButtonClicked:(id)sender;
+- (IBAction)signUpButtonClicked:(id)sender;
 
 @end
