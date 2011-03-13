@@ -23,6 +23,7 @@
 	NSMutableData*		receivedData;
 	NSURLConnection*	conn;
 	NSDictionary*		aDeal;
+    int                 dealIndex;
 	
 	TCImageView*	dealImageView;
 	
@@ -46,5 +47,5 @@
 -(IBAction)likeButtonClicked:(id)sender;
 -(IBAction)dislikeButtonClicked:(id)sender;
 -(void)loadDeals;
--(void)displayDeal;
+-(void)displayDeal:(int)index;
 @end

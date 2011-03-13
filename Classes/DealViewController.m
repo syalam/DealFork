@@ -38,7 +38,7 @@
     [super viewDidLoad];
 	
 	self.title = @"DealFork";
-	
+	dealIndex = 0;
 	[self loadDeals];
 }
 
@@ -98,14 +98,22 @@
 }
 
 #pragma mark Deal Methods
--(void)displayDeal
+-(void)displayDeal:(int) index
 {	
-	//int r = rand() % [items count];
+	//RANDOMIZER CODE
+    /*
+    //int r = rand() % [items count];
 	//int r = ((int)rand() / (int)RAND_MAX) * [items count];
 	int r = arc4random() % ([items count]);
+    
 	NSLog(@"Random Number: %d",r);
 	NSLog(@"Items Count: %d", [items count]);
-	aDeal = [items objectAtIndex:r];
+    */
+    
+    if(index < [items count])
+        aDeal = [items objectAtIndex:index];
+    else
+        NSLog(@"SHOW DEAL FORK SIGNUP HERE!");
 	
 	//Populate the Labels
 	NSArray *locations = [[aDeal objectForKey:@"business"] valueForKey:@"locations"];
@@ -169,7 +177,8 @@
 	NSDictionary *params = [NSDictionary dictionaryWithObjectsAndKeys:[aDeal valueForKey:@"title"], @"deal", nil];
 	[FlurryAPI logEvent:@"NEXT_BUTTON_CLICKED" withParameters:params];
 
-	[self displayDeal];
+    dealIndex++;
+	[self displayDeal:dealIndex];
 }
 
 -(IBAction)dislikeButtonClicked:(id)sender
@@ -237,14 +246,15 @@
 	}
 	
 	NSLog(@"Items Count: %d", [items count]);
-	[self displayDeal];
+	[self displayDeal:dealIndex];
 }
 
 #pragma mark Motion Methods
 - (void)motionEnded:(UIEventSubtype)motion withEvent:(UIEvent *)event {	
     if (motion == UIEventSubtypeMotionShake) {
         NSLog(@"BOOM SHAKA LAKA!");
-		[self displayDeal];
+        dealIndex++;
+        [self displayDeal:dealIndex];
     }
     else {
         NSLog(@"{not shaken state ");           
