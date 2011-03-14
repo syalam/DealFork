@@ -38,9 +38,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 	
-	self.title = @"DealFork";
+	//self.title = @"DealFork";
 	dealIndex = 0;
 	[self loadDeals];
+    
+    UIImageView* img = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"toplogo.png"]];
+    self.navigationItem.titleView = img;
+    [img release];
 }
 
 - (void) viewWillAppear:(BOOL)animated
