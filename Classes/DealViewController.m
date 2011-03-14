@@ -145,11 +145,11 @@
 	descriptionLabel.text = [aDeal valueForKey:@"title"];
 	
 	//Load the image
-	NSString* dealImageURL = [[aDeal valueForKey:@"images"] valueForKey:@"image_small"];
+	/*NSString* dealImageURL = [[aDeal valueForKey:@"images"] valueForKey:@"image_small"];
 	dealImageView = [[TCImageView alloc] initWithURL:[NSURL URLWithString:dealImageURL] placeholderImage:[UIImage imageNamed:@"placeholder.png"]];
     dealImageView.frame = CGRectMake(19.0, 20.0, 100.0, 80.0);
 	[dealImageView loadImage];
-	[self.view addSubview:dealImageView];
+	[self.view addSubview:dealImageView];*/
     
     dealIndex++;
 }
