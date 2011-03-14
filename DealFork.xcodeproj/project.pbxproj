@@ -24,6 +24,9 @@
 		8C50B6AC1311B06500D3EEAC /* DealViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 8C50B6A91311B06500D3EEAC /* DealViewController.h */; };
 		8C50B6AD1311B06500D3EEAC /* DealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C50B6AA1311B06500D3EEAC /* DealViewController.m */; };
 		8C50B6AE1311B06500D3EEAC /* DealViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C50B6AB1311B06500D3EEAC /* DealViewController.xib */; };
+		8C6F63F8132CE9F200FAE169 /* SignUpViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 8C6F63F5132CE9F200FAE169 /* SignUpViewController.h */; };
+		8C6F63F9132CE9F200FAE169 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6F63F6132CE9F200FAE169 /* SignUpViewController.m */; };
+		8C6F63FA132CE9F200FAE169 /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C6F63F7132CE9F200FAE169 /* SignUpViewController.xib */; };
 		8C9B733313270B8300800349 /* appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C9B732913270B8300800349 /* appicon.png */; };
 		8C9B733413270B8300800349 /* appicon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C9B732A13270B8300800349 /* appicon@2x.png */; };
 		8C9B733513270B8300800349 /* button-getdeal.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C9B732B13270B8300800349 /* button-getdeal.png */; };
@@ -78,6 +81,9 @@
 		8C50B6A91311B06500D3EEAC /* DealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; path = DealViewController.h; sourceTree = "<group>"; };
 		8C50B6AA1311B06500D3EEAC /* DealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DealViewController.m; sourceTree = "<group>"; };
 		8C50B6AB1311B06500D3EEAC /* DealViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DealViewController.xib; sourceTree = "<group>"; };
+		8C6F63F5132CE9F200FAE169 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		8C6F63F6132CE9F200FAE169 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		8C6F63F7132CE9F200FAE169 /* SignUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
 		8C9B732913270B8300800349 /* appicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon.png; sourceTree = "<group>"; };
 		8C9B732A13270B8300800349 /* appicon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appicon@2x.png"; sourceTree = "<group>"; };
 		8C9B732B13270B8300800349 /* button-getdeal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-getdeal.png"; sourceTree = "<group>"; };
@@ -230,6 +236,16 @@
 			name = "Deal View";
 			sourceTree = "<group>";
 		};
+		8C6F63E8132CE77400FAE169 /* Sign Up View */ = {
+			isa = PBXGroup;
+			children = (
+				8C6F63F5132CE9F200FAE169 /* SignUpViewController.h */,
+				8C6F63F6132CE9F200FAE169 /* SignUpViewController.m */,
+				8C6F63F7132CE9F200FAE169 /* SignUpViewController.xib */,
+			);
+			name = "Sign Up View";
+			sourceTree = "<group>";
+		};
 		8C9B732413270B5200800349 /* Images */ = {
 			isa = PBXGroup;
 			children = (
@@ -290,6 +306,7 @@
 		8CC44DFC131993F20013AADE /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				8C6F63E8132CE77400FAE169 /* Sign Up View */,
 				8C43C8911311C737005A0867 /* Browser View */,
 				8C50B6B11311B07000D3EEAC /* Deal View */,
 				8C50B69A1311B02600D3EEAC /* Splash View */,
@@ -381,6 +398,7 @@
 				8C9B733A13270B8300800349 /* icon-x@2x.png in Resources */,
 				8C9B733B13270B8300800349 /* toplogo.png in Resources */,
 				8C9B733C13270B8300800349 /* toplogo@2x.png in Resources */,
+				8C6F63FA132CE9F200FAE169 /* SignUpViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +437,8 @@
 				8CC0BD811321FA4F0090B785 /* FlurryAPI+AppCircle.h in Sources */,
 				8CC0BD821321FA4F0090B785 /* FlurryOffer.h in Sources */,
 				8CC0BD831321FA4F0090B785 /* FlurryAPI.h in Sources */,
+				8C6F63F8132CE9F200FAE169 /* SignUpViewController.h in Sources */,
+				8C6F63F9132CE9F200FAE169 /* SignUpViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
