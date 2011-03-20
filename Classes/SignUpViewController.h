@@ -11,7 +11,7 @@
 
 @interface SignUpViewController : UIViewController {
     IBOutlet UIBarButtonItem *CloseButton;
-    IBOutlet UIBarButtonItem *SignUpButton;
+    IBOutlet UIButton *signUpButton;
 }
 
 - (IBAction)closeButtonClicked:(id)sender;

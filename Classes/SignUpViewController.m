@@ -22,8 +22,9 @@
 
 - (void)dealloc
 {
-    [SignUpButton release];
+    [signUpButton release];
     [CloseButton release];
+    [signUpButton release];
     [super dealloc];
 }
 
@@ -45,8 +46,8 @@
 
 - (void)viewDidUnload
 {
-    [SignUpButton release];
-    SignUpButton = nil;
+    [signUpButton release];
+    signUpButton = nil;
     [CloseButton release];
     CloseButton = nil;
     [super viewDidUnload];
@@ -67,4 +68,5 @@
 - (IBAction)signUpButtonClicked:(id)sender {
     NSLog(@"do mailchimp stuff here");
 }
+
 @end
