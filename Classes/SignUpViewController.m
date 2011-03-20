@@ -7,7 +7,7 @@
 //
 
 #import "SignUpViewController.h"
-
+#import "FlurryAPI.h"
 
 @implementation SignUpViewController
 
@@ -25,6 +25,7 @@
     [signUpButton release];
     [CloseButton release];
     [signUpButton release];
+    [signUpTextField release];
     [super dealloc];
 }
 
@@ -42,6 +43,8 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    //TODO: make textfield first responder
+    [signUpTextField becomeFirstResponder];
 }
 
 - (void)viewDidUnload
@@ -50,6 +53,8 @@
     signUpButton = nil;
     [CloseButton release];
     CloseButton = nil;
+    [signUpTextField release];
+    signUpTextField = nil;
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -67,6 +72,8 @@
 
 - (IBAction)signUpButtonClicked:(id)sender {
     NSLog(@"do mailchimp stuff here");
+    NSDictionary *params = [NSDictionary dictionaryWithObjectsAndKeys:signUpTextField.text, @"email-address", nil];
+	[FlurryAPI logEvent:@"SIGN_UP_BUTTON_CLICKED" withParameters:params];
 }
 
 @end

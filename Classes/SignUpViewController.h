@@ -12,6 +12,7 @@
 @interface SignUpViewController : UIViewController {
     IBOutlet UIBarButtonItem *CloseButton;
     IBOutlet UIButton *signUpButton;
+    IBOutlet UITextField *signUpTextField;
 }
 
 - (IBAction)closeButtonClicked:(id)sender;
