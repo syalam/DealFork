@@ -185,7 +185,7 @@
 	[self.navigationController presentModalViewController:bvc animated:YES];
 }
 
--(IBAction)likeButtonClicked:(id)sender{
+-(IBAction)nextButtonClicked:(id)sender{
 	NSDictionary *params = [NSDictionary dictionaryWithObjectsAndKeys:[aDeal valueForKey:@"title"], @"deal", nil];
 	[FlurryAPI logEvent:@"NEXT_BUTTON_CLICKED" withParameters:params];
 

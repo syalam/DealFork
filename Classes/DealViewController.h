@@ -44,7 +44,7 @@
 @property(nonatomic,retain) NSDictionary*				aDeal;
 
 -(IBAction)buyButtonClicked:(id)sender;
--(IBAction)likeButtonClicked:(id)sender;
+-(IBAction)nextButtonClicked:(id)sender;
 -(IBAction)dislikeButtonClicked:(id)sender;
 -(void)loadDeals;
 -(void)displayDeal:(int)index;
