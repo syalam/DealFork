@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 
-@interface SignUpViewController : UIViewController {
+@interface SignUpViewController : UIViewController <UITextFieldDelegate> {
     IBOutlet UIBarButtonItem *CloseButton;
     IBOutlet UIButton *signUpButton;
     IBOutlet UITextField *signUpTextField;

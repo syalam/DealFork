@@ -43,7 +43,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    //TODO: make textfield first responder
+    signUpTextField.delegate = self;
     [signUpTextField becomeFirstResponder];
 }
 
@@ -76,4 +76,13 @@
 	[FlurryAPI logEvent:@"SIGN_UP_BUTTON_CLICKED" withParameters:params];
 }
 
+#pragma mark textField delegate methods
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+	if (signUpTextField.editing) {
+		[self performSelector:@selector(signUpButtonClicked:)];
+	}
+    
+	return YES;
+}
 @end

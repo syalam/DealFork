@@ -1157,9 +1157,9 @@
 		<string>PrimaryDocumentVisibleCharacterRange</string>
 		<string>HideAllIssues</string>
 		<string>PrimaryDocumentSelectedCharacterRange</string>
-		<real>322343934.34998202</real>
-		<string>{0, 434}</string>
-		<string>{319, 0}</string>
+		<real>322344606.78391898</real>
+		<string>{0, 456}</string>
+		<string>{234, 0}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -1205,7 +1205,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>322344322.82937598</real>
+		<real>322344641.23053801</real>
 		<string>{4539, 1715}</string>
 		<string>{5297, 179}</string>
 		<dict>
@@ -1445,9 +1445,9 @@
 				</dict>
 			</array>
 		</dict>
-		<real>322344322.82915801</real>
-		<string>{456, 1152}</string>
-		<string>{1045, 0}</string>
+		<real>322344641.23033702</real>
+		<string>{0, 1044}</string>
+		<string>{474, 0}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -2920,7 +2920,7 @@
 				<integer>263</integer>
 			</dict>
 			<key>NS.time</key>
-			<real>322344298.124318</real>
+			<real>322344610.49703902</real>
 		</dict>
 		<dict>
 			<key>$classes</key>
@@ -2931,7 +2931,7 @@
 			<key>$classname</key>
 			<string>NSDate</string>
 		</dict>
-		<string>Today at 8:04 PM</string>
+		<string>Today at 8:10 PM</string>
 		<integer>106</integer>
 		<dict>
 			<key>$class</key>
@@ -3018,7 +3018,7 @@
 				<integer>270</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/syalam/Documents/DealFork/Classes/BrowserViewController.m</string>
+		<string>file://localhost/Users/syalam/Documents/DealFork/Classes/SignUpViewController.h</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -3036,7 +3036,7 @@
 				<integer>272</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/syalam/Documents/DealFork/Classes/DealViewController.m</string>
+		<string>file://localhost/Users/syalam/Documents/DealFork/Classes/BrowserViewController.m</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -3054,7 +3054,7 @@
 				<integer>274</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/syalam/Documents/DealFork/Classes/SignUpViewController.xib</string>
+		<string>file://localhost/Users/syalam/Documents/DealFork/Classes/DealViewController.m</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -3072,7 +3072,7 @@
 				<integer>276</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/syalam/Documents/DealFork/Classes/SignUpViewController.h</string>
+		<string>file://localhost/Users/syalam/Documents/DealFork/Classes/SignUpViewController.xib</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -17046,7 +17046,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>322344322.832762</real>
+		<real>322344641.23419303</real>
 		<string>{4539, 1715}</string>
 		<string>{5297, 179}</string>
 		<string>-buyButtonClicked:</string>
@@ -19638,7 +19638,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1192</integer>
+					<integer>914</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -20898,10 +20898,10 @@
 				</dict>
 			</array>
 		</dict>
-		<real>322344322.83146399</real>
-		<string>{456, 1152}</string>
-		<string>{1045, 0}</string>
-		<string>-viewDidLoad</string>
+		<real>322344641.23303801</real>
+		<string>{0, 1044}</string>
+		<string>{474, 0}</string>
+		<string>-dealloc</string>
 		<dict>
 			<key>$class</key>
 			<dict>
